@@ -1,0 +1,8 @@
+E:/XYG/test/mediaplayer-main/mediaplayer-main/debug/CMakeFiles/mediaPlayer.dir
+E:/XYG/test/mediaplayer-main/mediaplayer-main/debug/CMakeFiles/edit_cache.dir
+E:/XYG/test/mediaplayer-main/mediaplayer-main/debug/CMakeFiles/rebuild_cache.dir
+E:/XYG/test/mediaplayer-main/mediaplayer-main/debug/CMakeFiles/list_install_components.dir
+E:/XYG/test/mediaplayer-main/mediaplayer-main/debug/CMakeFiles/install.dir
+E:/XYG/test/mediaplayer-main/mediaplayer-main/debug/CMakeFiles/install/local.dir
+E:/XYG/test/mediaplayer-main/mediaplayer-main/debug/CMakeFiles/install/strip.dir
+E:/XYG/test/mediaplayer-main/mediaplayer-main/debug/CMakeFiles/mediaPlayer_autogen.dir

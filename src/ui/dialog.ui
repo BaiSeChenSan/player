@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1024</width>
+    <height>768</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Lumos视频分析助手</string>
+  </property>
+  <property name="windowOpacity">
+   <double>8.000000000000000</double>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: qconicalgradient(
+        cx: 0.5, cy: 0.5, angle: 0,
+        stop: 0.0 rgba(230, 245, 255, 255),   /* 浅蓝白 */
+        stop: 0.3 rgba(200, 230, 255, 255),   /* 浅蓝 */
+        stop: 0.6 rgba(180, 210, 255, 255),   /* 亮蓝 */
+        stop: 0.9 rgba(220, 240, 255, 255),   /* 淡蓝白 */
+        stop: 1.0 rgba(230, 245, 255, 255)    /* 浅蓝白 */
+    );
+font: 75 9pt &quot;微软雅黑&quot;;</string>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout">
+   <property name="leftMargin">
+    <number>8</number>
+   </property>
+   <property name="rightMargin">
+    <number>6</number>
+   </property>
+   <item>
+    <widget class="QFrame" name="analyse">
+     <property name="maximumSize">
+      <size>
+       <width>16777215</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QFrame {
+    background: transparent;
+    border-radius: 16px;  /* 复合圆角系统 */
+    font-family: 'Segoe UI Variable';
+    font-size: 14px;
+    color: #1a1a1a;
+    
+}</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <property name="lineWidth">
+      <number>0</number>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <property name="spacing">
+       <number>6</number>
+      </property>
+      <property name="leftMargin">
+       <number>0</number>
+      </property>
+      <property name="topMargin">
+       <number>0</number>
+      </property>
+      <property name="rightMargin">
+       <number>0</number>
+      </property>
+      <property name="bottomMargin">
+       <number>0</number>
+      </property>
+      <item>
+       <widget class="QPlainTextEdit" name="textEdit">
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPlainTextEdit{
+background-color: rgba(150, 150, 150, 0.5);
+     font: 10pt &quot;微软雅黑&quot;;
+	color: rgb(64, 66, 68);
+     padding:10px;
+}</string>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::NoFrame</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+        <property name="lineWidth">
+         <number>0</number>
+        </property>
+        <property name="readOnly">
+         <bool>true</bool>
+        </property>
+        <property name="overwriteMode">
+         <bool>false</bool>
+        </property>
+        <property name="tabStopWidth">
+         <number>80</number>
+        </property>
+        <property name="cursorWidth">
+         <number>3</number>
+        </property>
+        <property name="maximumBlockCount">
+         <number>0</number>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QFrame" name="frame">
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>200</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgba(150, 150, 150, 0.5);
+border-radius:16px;
+color: rgb(64, 66, 68);</string>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Sunken</enum>
+        </property>
+        <property name="lineWidth">
+         <number>1</number>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_2">
+         <property name="topMargin">
+          <number>21</number>
+         </property>
+         <property name="bottomMargin">
+          <number>7</number>
+         </property>
+         <item>
+          <widget class="QPushButton" name="pushButton">
+           <property name="maximumSize">
+            <size>
+             <width>16777215</width>
+             <height>30</height>
+            </size>
+           </property>
+           <property name="font">
+            <font>
+             <family>微软雅黑</family>
+             <pointsize>9</pointsize>
+             <weight>9</weight>
+             <italic>false</italic>
+             <bold>false</bold>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+    background-color: rgb(41, 42, 45,0.5);
+    width: 50px;
+    height: 50px;
+    color:#1d1c1c;
+border-radius: 15px;
+}
+</string>
+           </property>
+           <property name="text">
+            <string>test.mp4</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pushButton_2">
+           <property name="maximumSize">
+            <size>
+             <width>16777215</width>
+             <height>50</height>
+            </size>
+           </property>
+           <property name="font">
+            <font>
+             <family>微软雅黑</family>
+             <pointsize>12</pointsize>
+             <weight>50</weight>
+             <italic>false</italic>
+             <bold>false</bold>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton{
+	font: 12pt &quot;微软雅黑&quot;;
+background:transparent;
+}</string>
+           </property>
+           <property name="text">
+            <string>我是Lumos，很高兴为你服务！</string>
+           </property>
+           <property name="icon">
+            <iconset>
+             <normaloff>:/new/prefix1/icons/LOGO.ico</normaloff>:/new/prefix1/icons/LOGO.ico</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>90</width>
+             <height>90</height>
+            </size>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_2">
+           <property name="maximumSize">
+            <size>
+             <width>16777215</width>
+             <height>30</height>
+            </size>
+           </property>
+           <property name="font">
+            <font>
+             <family>微软雅黑</family>
+             <pointsize>9</pointsize>
+             <weight>50</weight>
+             <italic>false</italic>
+             <bold>false</bold>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QLabel{
+	font: 9pt &quot;微软雅黑&quot;;
+background:transparent;
+}</string>
+           </property>
+           <property name="text">
+            <string>作为Lumos情感分析助手，我可以帮你进行视频情感成分以及视频风格分析。</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label">
+           <property name="styleSheet">
+            <string notr="true">QLabel{
+	font: 9pt &quot;微软雅黑&quot;;
+background:transparent;
+}</string>
+           </property>
+           <property name="text">
+            <string>点击右侧视频列表选择视频，我可以分析所选择视频中的情感成分和风格特点，尽情使用吧！</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="gifLabel">
+     <property name="text">
+      <string>TextLabel</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QListView" name="listView">
+     <property name="minimumSize">
+      <size>
+       <width>320</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>246</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-radius:10px;
+background-image: url(:/new/prefix1/icons/list3.png);
+\background-color: rgba(150, 150, 150, 0.5);
+</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

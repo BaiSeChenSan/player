@@ -1,0 +1,19 @@
+CMakeFiles/mediaPlayer.dir/src/sonic.c.obj: \
+ E:\XYG\test\mediaplayer-main\mediaplayer-main\src\sonic.c \
+ E:/XYG/test/mediaplayer-main/mediaplayer-main/Python312/include/sonic.h \
+ E:/Qt5.14.2/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed/limits.h \
+ E:/Qt5.14.2/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed/syslimits.h \
+ E:/Qt5.14.2/Tools/mingw730_64/x86_64-w64-mingw32/include/limits.h \
+ E:/Qt5.14.2/Tools/mingw730_64/x86_64-w64-mingw32/include/crtdefs.h \
+ E:/Qt5.14.2/Tools/mingw730_64/x86_64-w64-mingw32/include/_mingw.h \
+ E:/Qt5.14.2/Tools/mingw730_64/x86_64-w64-mingw32/include/_mingw_mac.h \
+ E:/Qt5.14.2/Tools/mingw730_64/x86_64-w64-mingw32/include/_mingw_secapi.h \
+ E:/Qt5.14.2/Tools/mingw730_64/x86_64-w64-mingw32/include/vadefs.h \
+ E:/Qt5.14.2/Tools/mingw730_64/x86_64-w64-mingw32/include/sdks/_mingw_directx.h \
+ E:/Qt5.14.2/Tools/mingw730_64/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
+ E:/Qt5.14.2/Tools/mingw730_64/x86_64-w64-mingw32/include/math.h \
+ E:/Qt5.14.2/Tools/mingw730_64/x86_64-w64-mingw32/include/stdlib.h \
+ E:/Qt5.14.2/Tools/mingw730_64/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
+ E:/Qt5.14.2/Tools/mingw730_64/x86_64-w64-mingw32/include/malloc.h \
+ E:/Qt5.14.2/Tools/mingw730_64/x86_64-w64-mingw32/include/string.h \
+ E:/Qt5.14.2/Tools/mingw730_64/x86_64-w64-mingw32/include/sec_api/string_s.h

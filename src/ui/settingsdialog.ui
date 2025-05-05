@@ -1,0 +1,3548 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SettingsDialog</class>
+ <widget class="QDialog" name="SettingsDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>641</width>
+    <height>504</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(255, 255, 255);</string>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout">
+   <property name="spacing">
+    <number>0</number>
+   </property>
+   <property name="leftMargin">
+    <number>0</number>
+   </property>
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <property name="rightMargin">
+    <number>0</number>
+   </property>
+   <property name="bottomMargin">
+    <number>0</number>
+   </property>
+   <item>
+    <widget class="QFrame" name="items">
+     <property name="minimumSize">
+      <size>
+       <width>150</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>150</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(51, 51, 51);</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_2">
+      <property name="spacing">
+       <number>0</number>
+      </property>
+      <property name="leftMargin">
+       <number>0</number>
+      </property>
+      <property name="topMargin">
+       <number>0</number>
+      </property>
+      <property name="rightMargin">
+       <number>0</number>
+      </property>
+      <property name="bottomMargin">
+       <number>0</number>
+      </property>
+      <item>
+       <widget class="QPushButton" name="pushButton_13">
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>40</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+    border: none;
+    background: transparent;
+}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_4">
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>40</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+    border: none;
+    background: transparent;
+	padding: 13px 10px 13px 10px;
+    color: rgb(255, 255, 255);
+	font: 14pt &quot;Microsoft YaHei UI&quot;;
+}
+
+QPushButton::hover {
+	background-color:rgb(53, 134, 255) ;
+}
+QPushButton::checked
+{
+	background-color: #3586ff;
+}</string>
+        </property>
+        <property name="text">
+         <string>播放</string>
+        </property>
+        <property name="checkable">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_3">
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>40</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+    border: none;
+    background: transparent;
+	padding: 13px 10px 13px 10px;
+    color: rgb(255, 255, 255);
+	font: 14pt &quot;Microsoft YaHei UI&quot;;
+}
+
+QPushButton::hover {
+	background-color:rgb(53, 134, 255) ;
+}
+QPushButton::checked
+{
+	background-color: #3586ff;
+}</string>
+        </property>
+        <property name="text">
+         <string>画面</string>
+        </property>
+        <property name="checkable">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_5">
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>40</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+    border: none;
+    background: transparent;
+	padding: 13px 10px 13px 10px;
+    color: rgb(255, 255, 255);
+	font: 14pt &quot;Microsoft YaHei UI&quot;;
+}
+
+QPushButton::hover {
+	background-color:rgb(53, 134, 255) ;
+}
+QPushButton::checked
+{
+	background-color: #3586ff;
+}</string>
+        </property>
+        <property name="text">
+         <string>色彩</string>
+        </property>
+        <property name="checkable">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_6">
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>40</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+    border: none;
+    background: transparent;
+	padding: 13px 10px 13px 10px;
+    color: rgb(255, 255, 255);
+	font: 14pt &quot;Microsoft YaHei UI&quot;;
+}
+
+QPushButton::hover {
+	background-color:rgb(53, 134, 255) ;
+}
+QPushButton::checked
+{
+	background-color: #3586ff;
+}</string>
+        </property>
+        <property name="text">
+         <string>字幕</string>
+        </property>
+        <property name="checkable">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_2">
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>40</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+    border: none;
+    background: transparent;
+	padding: 13px 10px 13px 10px;
+    color: rgb(255, 255, 255);
+	font: 14pt &quot;Microsoft YaHei UI&quot;;
+}
+
+QPushButton::hover {
+	background-color:rgb(53, 134, 255) ;
+}
+QPushButton::checked
+{
+	background-color: #3586ff;
+}</string>
+        </property>
+        <property name="text">
+         <string>字幕样式</string>
+        </property>
+        <property name="checkable">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="verticalSpacer_4">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>20</width>
+          <height>40</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QFrame" name="frame_2">
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(64, 66, 68);</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <property name="topMargin">
+       <number>0</number>
+      </property>
+      <item>
+       <widget class="QFrame" name="frame_29">
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>40</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout_27">
+         <property name="spacing">
+          <number>0</number>
+         </property>
+         <property name="leftMargin">
+          <number>0</number>
+         </property>
+         <property name="topMargin">
+          <number>0</number>
+         </property>
+         <property name="rightMargin">
+          <number>0</number>
+         </property>
+         <property name="bottomMargin">
+          <number>0</number>
+         </property>
+         <item>
+          <spacer name="horizontalSpacer_11">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <widget class="QPushButton" name="close_4">
+           <property name="minimumSize">
+            <size>
+             <width>30</width>
+             <height>30</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>30</width>
+             <height>30</height>
+            </size>
+           </property>
+           <property name="layoutDirection">
+            <enum>Qt::RightToLeft</enum>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+    border: none;
+    background: transparent;
+}
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="icon">
+            <iconset resource="../../icons.qrc">
+             <normaloff>:/new/prefix1/icons/close.svg</normaloff>:/new/prefix1/icons/close.svg</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>28</width>
+             <height>28</height>
+            </size>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QStackedWidget" name="stackedWidget">
+        <property name="enabled">
+         <bool>true</bool>
+        </property>
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>292</width>
+          <height>330</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>1667777</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <kerning>true</kerning>
+         </font>
+        </property>
+        <property name="toolTipDuration">
+         <number>0</number>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(64, 66, 68);</string>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::NoFrame</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+        <property name="lineWidth">
+         <number>0</number>
+        </property>
+        <property name="currentIndex">
+         <number>4</number>
+        </property>
+        <widget class="QWidget" name="page_1">
+         <property name="enabled">
+          <bool>true</bool>
+         </property>
+         <property name="toolTipDuration">
+          <number>0</number>
+         </property>
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_4">
+          <property name="spacing">
+           <number>0</number>
+          </property>
+          <property name="sizeConstraint">
+           <enum>QLayout::SetDefaultConstraint</enum>
+          </property>
+          <property name="leftMargin">
+           <number>0</number>
+          </property>
+          <property name="topMargin">
+           <number>0</number>
+          </property>
+          <property name="rightMargin">
+           <number>0</number>
+          </property>
+          <property name="bottomMargin">
+           <number>0</number>
+          </property>
+          <item>
+           <widget class="QFrame" name="frame_9">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_4">
+             <property name="leftMargin">
+              <number>6</number>
+             </property>
+             <property name="topMargin">
+              <number>0</number>
+             </property>
+             <property name="rightMargin">
+              <number>0</number>
+             </property>
+             <property name="bottomMargin">
+              <number>0</number>
+             </property>
+             <item>
+              <widget class="QLabel" name="label">
+               <property name="minimumSize">
+                <size>
+                 <width>0</width>
+                 <height>30</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>16777215</width>
+                 <height>50</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <family>Microsoft YaHei UI</family>
+                 <pointsize>12</pointsize>
+                 <weight>50</weight>
+                 <italic>false</italic>
+                 <bold>false</bold>
+                </font>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">font: 12pt &quot;Microsoft YaHei UI&quot;;</string>
+               </property>
+               <property name="text">
+                <string>快进/快退</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QFrame" name="frame_10">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>25</height>
+             </size>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_5">
+             <property name="leftMargin">
+              <number>6</number>
+             </property>
+             <property name="topMargin">
+              <number>0</number>
+             </property>
+             <property name="rightMargin">
+              <number>0</number>
+             </property>
+             <property name="bottomMargin">
+              <number>0</number>
+             </property>
+             <item>
+              <widget class="QRadioButton" name="radioButton">
+               <property name="maximumSize">
+                <size>
+                 <width>100</width>
+                 <height>16777215</height>
+                </size>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">font: 25 10pt &quot;Microsoft YaHei UI&quot;;</string>
+               </property>
+               <property name="text">
+                <string>5s</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QRadioButton" name="radioButton_2">
+               <property name="maximumSize">
+                <size>
+                 <width>100</width>
+                 <height>16777215</height>
+                </size>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">font: 25 10pt &quot;Microsoft YaHei UI&quot;;</string>
+               </property>
+               <property name="text">
+                <string>10s</string>
+               </property>
+               <property name="checkable">
+                <bool>true</bool>
+               </property>
+               <property name="checked">
+                <bool>false</bool>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QRadioButton" name="radioButton_3">
+               <property name="maximumSize">
+                <size>
+                 <width>100</width>
+                 <height>16777215</height>
+                </size>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">font: 25 10pt &quot;Microsoft YaHei UI&quot;;</string>
+               </property>
+               <property name="text">
+                <string>20s</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <spacer name="verticalSpacer_7">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+            <property name="sizeType">
+             <enum>QSizePolicy::Minimum</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>20</width>
+              <height>10</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item>
+           <widget class="QFrame" name="frame_11">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>25</height>
+             </size>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_6">
+             <property name="leftMargin">
+              <number>6</number>
+             </property>
+             <property name="topMargin">
+              <number>0</number>
+             </property>
+             <property name="rightMargin">
+              <number>0</number>
+             </property>
+             <property name="bottomMargin">
+              <number>6</number>
+             </property>
+             <item>
+              <widget class="QLabel" name="label_2">
+               <property name="font">
+                <font>
+                 <family>Microsoft YaHei UI</family>
+                 <pointsize>12</pointsize>
+                 <weight>50</weight>
+                 <italic>false</italic>
+                 <bold>false</bold>
+                </font>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">font: 12pt &quot;Microsoft YaHei UI&quot;;</string>
+               </property>
+               <property name="text">
+                <string>倍速播放</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QFrame" name="frame_12">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>100</height>
+             </size>
+            </property>
+            <property name="layoutDirection">
+             <enum>Qt::LeftToRight</enum>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QVBoxLayout" name="verticalLayout_5">
+             <property name="spacing">
+              <number>0</number>
+             </property>
+             <property name="leftMargin">
+              <number>6</number>
+             </property>
+             <property name="topMargin">
+              <number>0</number>
+             </property>
+             <property name="rightMargin">
+              <number>0</number>
+             </property>
+             <property name="bottomMargin">
+              <number>0</number>
+             </property>
+             <item alignment="Qt::AlignHCenter">
+              <widget class="QSlider" name="horizontalSlider">
+               <property name="minimumSize">
+                <size>
+                 <width>300</width>
+                 <height>0</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>300</width>
+                 <height>10</height>
+                </size>
+               </property>
+               <property name="minimum">
+                <number>0</number>
+               </property>
+               <property name="maximum">
+                <number>3</number>
+               </property>
+               <property name="singleStep">
+                <number>1</number>
+               </property>
+               <property name="value">
+                <number>1</number>
+               </property>
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+              </widget>
+             </item>
+             <item alignment="Qt::AlignHCenter">
+              <widget class="QFrame" name="frame">
+               <property name="minimumSize">
+                <size>
+                 <width>0</width>
+                 <height>0</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>16777215</width>
+                 <height>50</height>
+                </size>
+               </property>
+               <property name="frameShape">
+                <enum>QFrame::StyledPanel</enum>
+               </property>
+               <property name="frameShadow">
+                <enum>QFrame::Raised</enum>
+               </property>
+               <layout class="QHBoxLayout" name="horizontalLayout_3">
+                <property name="spacing">
+                 <number>50</number>
+                </property>
+                <property name="leftMargin">
+                 <number>6</number>
+                </property>
+                <property name="topMargin">
+                 <number>6</number>
+                </property>
+                <property name="rightMargin">
+                 <number>0</number>
+                </property>
+                <property name="bottomMargin">
+                 <number>6</number>
+                </property>
+                <item>
+                 <widget class="QLabel" name="label_7">
+                  <property name="minimumSize">
+                   <size>
+                    <width>50</width>
+                    <height>0</height>
+                   </size>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">font: 25 10pt &quot;Microsoft YaHei UI&quot;;</string>
+                  </property>
+                  <property name="text">
+                   <string>0.5倍</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLabel" name="label_11">
+                  <property name="minimumSize">
+                   <size>
+                    <width>50</width>
+                    <height>0</height>
+                   </size>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">font: 25 10pt &quot;Microsoft YaHei UI&quot;;</string>
+                  </property>
+                  <property name="text">
+                   <string>1.0倍</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLabel" name="label_13">
+                  <property name="minimumSize">
+                   <size>
+                    <width>50</width>
+                    <height>0</height>
+                   </size>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">font: 25 10pt &quot;Microsoft YaHei UI&quot;;</string>
+                  </property>
+                  <property name="text">
+                   <string>1.5倍</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLabel" name="label_12">
+                  <property name="minimumSize">
+                   <size>
+                    <width>50</width>
+                    <height>0</height>
+                   </size>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">font: 25 10pt &quot;Microsoft YaHei UI&quot;;</string>
+                  </property>
+                  <property name="text">
+                   <string>2.0倍</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <spacer name="verticalSpacer">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>20</width>
+              <height>40</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+         </layout>
+        </widget>
+        <widget class="QWidget" name="page_2">
+         <layout class="QVBoxLayout" name="verticalLayout_6">
+          <property name="spacing">
+           <number>1</number>
+          </property>
+          <property name="leftMargin">
+           <number>0</number>
+          </property>
+          <property name="topMargin">
+           <number>0</number>
+          </property>
+          <property name="rightMargin">
+           <number>0</number>
+          </property>
+          <property name="bottomMargin">
+           <number>0</number>
+          </property>
+          <item>
+           <widget class="QFrame" name="frame_13">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_8">
+             <property name="leftMargin">
+              <number>6</number>
+             </property>
+             <property name="topMargin">
+              <number>0</number>
+             </property>
+             <property name="rightMargin">
+              <number>0</number>
+             </property>
+             <property name="bottomMargin">
+              <number>0</number>
+             </property>
+             <item>
+              <widget class="QLabel" name="label_3">
+               <property name="minimumSize">
+                <size>
+                 <width>0</width>
+                 <height>30</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>16777215</width>
+                 <height>50</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <family>Microsoft YaHei UI</family>
+                 <pointsize>12</pointsize>
+                 <weight>50</weight>
+                 <italic>false</italic>
+                 <bold>false</bold>
+                </font>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">font: 12pt &quot;Microsoft YaHei UI&quot;;</string>
+               </property>
+               <property name="text">
+                <string>比例</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QFrame" name="frame_14">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>25</height>
+             </size>
+            </property>
+            <property name="layoutDirection">
+             <enum>Qt::LeftToRight</enum>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::NoFrame</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_9">
+             <property name="leftMargin">
+              <number>6</number>
+             </property>
+             <property name="topMargin">
+              <number>0</number>
+             </property>
+             <property name="rightMargin">
+              <number>0</number>
+             </property>
+             <property name="bottomMargin">
+              <number>0</number>
+             </property>
+             <item>
+              <widget class="QRadioButton" name="radioButton_4">
+               <property name="maximumSize">
+                <size>
+                 <width>100</width>
+                 <height>16777215</height>
+                </size>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">font: 25 10pt &quot;Microsoft YaHei UI&quot;;</string>
+               </property>
+               <property name="text">
+                <string>16：9</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QRadioButton" name="radioButton_5">
+               <property name="maximumSize">
+                <size>
+                 <width>100</width>
+                 <height>16777215</height>
+                </size>
+               </property>
+               <property name="contextMenuPolicy">
+                <enum>Qt::ActionsContextMenu</enum>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">font: 25 10pt &quot;Microsoft YaHei UI&quot;;</string>
+               </property>
+               <property name="text">
+                <string>4：3</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <spacer name="verticalSpacer_8">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+            <property name="sizeType">
+             <enum>QSizePolicy::Fixed</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>20</width>
+              <height>10</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item>
+           <widget class="QFrame" name="frame_15">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>25</height>
+             </size>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_10">
+             <property name="leftMargin">
+              <number>6</number>
+             </property>
+             <property name="topMargin">
+              <number>0</number>
+             </property>
+             <property name="rightMargin">
+              <number>0</number>
+             </property>
+             <property name="bottomMargin">
+              <number>0</number>
+             </property>
+             <item>
+              <widget class="QLabel" name="label_4">
+               <property name="minimumSize">
+                <size>
+                 <width>0</width>
+                 <height>30</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <family>Microsoft YaHei UI</family>
+                 <pointsize>12</pointsize>
+                 <weight>50</weight>
+                 <italic>false</italic>
+                 <bold>false</bold>
+                </font>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">font: 12pt &quot;Microsoft YaHei UI&quot;;</string>
+               </property>
+               <property name="text">
+                <string>旋转</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QFrame" name="frame_16">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>120</height>
+             </size>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QGridLayout" name="gridLayout">
+             <property name="leftMargin">
+              <number>6</number>
+             </property>
+             <property name="topMargin">
+              <number>0</number>
+             </property>
+             <property name="rightMargin">
+              <number>0</number>
+             </property>
+             <property name="bottomMargin">
+              <number>0</number>
+             </property>
+             <property name="horizontalSpacing">
+              <number>0</number>
+             </property>
+             <item row="0" column="0">
+              <widget class="QPushButton" name="pushButton_8">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="minimumSize">
+                <size>
+                 <width>0</width>
+                 <height>40</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>140</width>
+                 <height>16777215</height>
+                </size>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">QPushButton {
+    /* 基础样式 */
+    background: qlineargradient(x1:0, y1:0, x2:0, y2:1,
+                              stop:0 #2d2d2d, stop:1 #404040);  /* 黑灰渐变背景 */
+    border: 2px solid #5a5a5a;              /* 深灰色边框 */
+    border-radius: 8px;                      /* 圆角半径 */
+    color: white;                            /* 白色字体 */
+    font: 25 10pt &quot;Microsoft YaHei UI&quot;;            /* 字体设置 */
+}
+ 
+/* 悬停效果 */
+QPushButton:hover {
+    background: qlineargradient(x1:0, y1:0, x2:0, y2:1,
+                              stop:0 #404040, stop:1 #4d4d4d);  /* 浅灰渐变 */
+    border-color: #707070;                   /* 浅灰边框 */
+}
+ 
+/* 按下效果 */
+QPushButton:pressed {
+    background: qlineargradient(x1:0, y1:0, x2:0, y2:1,
+                              stop:0 #212121, stop:1 #303030);  /* 深灰渐变 */
+    border-color: #3d3d3d;                   /* 暗灰色边框 */
+    padding-top: 3px;                        /* 模拟按压下沉效果 */
+    padding-left: 5px;
+}
+ 
+/* 禁用状态 */
+QPushButton:disabled {
+    background: #3a3a3a;                     /* 禁用背景色 */
+    color: #a0a0a0;                         /* 灰色字体 */
+    border-color: #4a4a4a;
+}</string>
+               </property>
+               <property name="text">
+                <string>顺时针旋转</string>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="1">
+              <widget class="QPushButton" name="pushButton_9">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="minimumSize">
+                <size>
+                 <width>0</width>
+                 <height>40</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>140</width>
+                 <height>16777215</height>
+                </size>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">QPushButton {
+    /* 基础样式 */
+    background: qlineargradient(x1:0, y1:0, x2:0, y2:1,
+                              stop:0 #2d2d2d, stop:1 #404040);  /* 黑灰渐变背景 */
+    border: 2px solid #5a5a5a;              /* 深灰色边框 */
+    border-radius: 8px;                      /* 圆角半径 */
+    color: white;                            /* 白色字体 */
+    font: 25 10pt &quot;Microsoft YaHei UI&quot;;            /* 字体设置 */
+}
+ 
+/* 悬停效果 */
+QPushButton:hover {
+    background: qlineargradient(x1:0, y1:0, x2:0, y2:1,
+                              stop:0 #404040, stop:1 #4d4d4d);  /* 浅灰渐变 */
+    border-color: #707070;                   /* 浅灰边框 */
+}
+ 
+/* 按下效果 */
+QPushButton:pressed {
+    background: qlineargradient(x1:0, y1:0, x2:0, y2:1,
+                              stop:0 #212121, stop:1 #303030);  /* 深灰渐变 */
+    border-color: #3d3d3d;                   /* 暗灰色边框 */
+    padding-top: 3px;                        /* 模拟按压下沉效果 */
+    padding-left: 5px;
+}
+ 
+/* 禁用状态 */
+QPushButton:disabled {
+    background: #3a3a3a;                     /* 禁用背景色 */
+    color: #a0a0a0;                         /* 灰色字体 */
+    border-color: #4a4a4a;
+}</string>
+               </property>
+               <property name="text">
+                <string>逆时针旋转</string>
+               </property>
+              </widget>
+             </item>
+             <item row="1" column="0">
+              <widget class="QPushButton" name="pushButton_10">
+               <property name="minimumSize">
+                <size>
+                 <width>0</width>
+                 <height>40</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>140</width>
+                 <height>16777215</height>
+                </size>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">QPushButton {
+    /* 基础样式 */
+    background: qlineargradient(x1:0, y1:0, x2:0, y2:1,
+                              stop:0 #2d2d2d, stop:1 #404040);  /* 黑灰渐变背景 */
+    border: 2px solid #5a5a5a;              /* 深灰色边框 */
+    border-radius: 8px;                      /* 圆角半径 */
+    color: white;                            /* 白色字体 */
+    font: 25 10pt &quot;Microsoft YaHei UI&quot;;            /* 字体设置 */
+}
+ 
+/* 悬停效果 */
+QPushButton:hover {
+    background: qlineargradient(x1:0, y1:0, x2:0, y2:1,
+                              stop:0 #404040, stop:1 #4d4d4d);  /* 浅灰渐变 */
+    border-color: #707070;                   /* 浅灰边框 */
+}
+ 
+/* 按下效果 */
+QPushButton:pressed {
+    background: qlineargradient(x1:0, y1:0, x2:0, y2:1,
+                              stop:0 #212121, stop:1 #303030);  /* 深灰渐变 */
+    border-color: #3d3d3d;                   /* 暗灰色边框 */
+    padding-top: 3px;                        /* 模拟按压下沉效果 */
+    padding-left: 5px;
+}
+ 
+/* 禁用状态 */
+QPushButton:disabled {
+    background: #3a3a3a;                     /* 禁用背景色 */
+    color: #a0a0a0;                         /* 灰色字体 */
+    border-color: #4a4a4a;
+}</string>
+               </property>
+               <property name="text">
+                <string>水平旋转</string>
+               </property>
+              </widget>
+             </item>
+             <item row="1" column="1">
+              <widget class="QPushButton" name="pushButton_11">
+               <property name="minimumSize">
+                <size>
+                 <width>0</width>
+                 <height>40</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>140</width>
+                 <height>16777215</height>
+                </size>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">QPushButton {
+    /* 基础样式 */
+    background: qlineargradient(x1:0, y1:0, x2:0, y2:1,
+                              stop:0 #2d2d2d, stop:1 #404040);  /* 黑灰渐变背景 */
+    border: 2px solid #5a5a5a;              /* 深灰色边框 */
+    border-radius: 8px;                      /* 圆角半径 */
+    color: white;                            /* 白色字体 */
+    font: 25 10pt &quot;Microsoft YaHei UI&quot;;            /* 字体设置 */
+}
+ 
+/* 悬停效果 */
+QPushButton:hover {
+    background: qlineargradient(x1:0, y1:0, x2:0, y2:1,
+                              stop:0 #404040, stop:1 #4d4d4d);  /* 浅灰渐变 */
+    border-color: #707070;                   /* 浅灰边框 */
+}
+ 
+/* 按下效果 */
+QPushButton:pressed {
+    background: qlineargradient(x1:0, y1:0, x2:0, y2:1,
+                              stop:0 #212121, stop:1 #303030);  /* 深灰渐变 */
+    border-color: #3d3d3d;                   /* 暗灰色边框 */
+    padding-top: 3px;                        /* 模拟按压下沉效果 */
+    padding-left: 5px;
+}
+ 
+/* 禁用状态 */
+QPushButton:disabled {
+    background: #3a3a3a;                     /* 禁用背景色 */
+    color: #a0a0a0;                         /* 灰色字体 */
+    border-color: #4a4a4a;
+}</string>
+               </property>
+               <property name="text">
+                <string>垂直旋转</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <spacer name="verticalSpacer_9">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+            <property name="sizeType">
+             <enum>QSizePolicy::Fixed</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>20</width>
+              <height>10</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item>
+           <widget class="QFrame" name="frame_18">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_11">
+             <property name="spacing">
+              <number>0</number>
+             </property>
+             <property name="leftMargin">
+              <number>6</number>
+             </property>
+             <property name="topMargin">
+              <number>0</number>
+             </property>
+             <property name="rightMargin">
+              <number>0</number>
+             </property>
+             <property name="bottomMargin">
+              <number>0</number>
+             </property>
+             <item>
+              <widget class="QLabel" name="label_5">
+               <property name="font">
+                <font>
+                 <family>Microsoft YaHei UI</family>
+                 <pointsize>12</pointsize>
+                 <weight>50</weight>
+                 <italic>false</italic>
+                 <bold>false</bold>
+                </font>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">font: 12pt &quot;Microsoft YaHei UI&quot;;</string>
+               </property>
+               <property name="text">
+                <string>画质</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QFrame" name="frame_17">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <spacer name="verticalSpacer_2">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+            <property name="sizeType">
+             <enum>QSizePolicy::Expanding</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>20</width>
+              <height>40</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+         </layout>
+        </widget>
+        <widget class="QWidget" name="page_3">
+         <layout class="QVBoxLayout" name="verticalLayout_7">
+          <property name="spacing">
+           <number>1</number>
+          </property>
+          <property name="leftMargin">
+           <number>0</number>
+          </property>
+          <property name="topMargin">
+           <number>0</number>
+          </property>
+          <property name="rightMargin">
+           <number>0</number>
+          </property>
+          <property name="bottomMargin">
+           <number>0</number>
+          </property>
+          <item>
+           <widget class="QFrame" name="frame_20">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>25</height>
+             </size>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_13">
+             <property name="spacing">
+              <number>5</number>
+             </property>
+             <property name="leftMargin">
+              <number>6</number>
+             </property>
+             <property name="topMargin">
+              <number>0</number>
+             </property>
+             <property name="rightMargin">
+              <number>0</number>
+             </property>
+             <property name="bottomMargin">
+              <number>0</number>
+             </property>
+             <item>
+              <widget class="QLabel" name="label_6">
+               <property name="font">
+                <font>
+                 <family>Microsoft YaHei UI</family>
+                 <pointsize>12</pointsize>
+                 <weight>50</weight>
+                 <italic>false</italic>
+                 <bold>false</bold>
+                </font>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">font: 12pt &quot;Microsoft YaHei UI&quot;;</string>
+               </property>
+               <property name="text">
+                <string>色彩</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QFrame" name="frame_26">
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_15">
+             <item>
+              <widget class="QLabel" name="label_10">
+               <property name="maximumSize">
+                <size>
+                 <width>100</width>
+                 <height>16777215</height>
+                </size>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">font: 25 10pt &quot;Microsoft YaHei UI&quot;;</string>
+               </property>
+               <property name="text">
+                <string> 亮度 </string>
+               </property>
+               <property name="alignment">
+                <set>Qt::AlignCenter</set>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QSlider" name="horizontalSlider_2">
+               <property name="maximumSize">
+                <size>
+                 <width>300</width>
+                 <height>16777215</height>
+                </size>
+               </property>
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QFrame" name="frame_27">
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_16">
+             <item>
+              <widget class="QLabel" name="label_9">
+               <property name="maximumSize">
+                <size>
+                 <width>100</width>
+                 <height>16777215</height>
+                </size>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">font: 25 10pt &quot;Microsoft YaHei UI&quot;;</string>
+               </property>
+               <property name="text">
+                <string>对比度</string>
+               </property>
+               <property name="alignment">
+                <set>Qt::AlignCenter</set>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QSlider" name="horizontalSlider_3">
+               <property name="maximumSize">
+                <size>
+                 <width>300</width>
+                 <height>16777215</height>
+                </size>
+               </property>
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QFrame" name="frame_28">
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_17">
+             <item>
+              <widget class="QLabel" name="label_8">
+               <property name="maximumSize">
+                <size>
+                 <width>100</width>
+                 <height>16777215</height>
+                </size>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">font: 25 10pt &quot;Microsoft YaHei UI&quot;;</string>
+               </property>
+               <property name="text">
+                <string>饱和度</string>
+               </property>
+               <property name="alignment">
+                <set>Qt::AlignCenter</set>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QSlider" name="horizontalSlider_5">
+               <property name="maximumSize">
+                <size>
+                 <width>300</width>
+                 <height>16777215</height>
+                </size>
+               </property>
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <spacer name="verticalSpacer_10">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+            <property name="sizeType">
+             <enum>QSizePolicy::Fixed</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>20</width>
+              <height>10</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item>
+           <widget class="QFrame" name="frame_22">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>25</height>
+             </size>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_14">
+             <property name="spacing">
+              <number>5</number>
+             </property>
+             <property name="leftMargin">
+              <number>6</number>
+             </property>
+             <property name="topMargin">
+              <number>0</number>
+             </property>
+             <property name="rightMargin">
+              <number>0</number>
+             </property>
+             <property name="bottomMargin">
+              <number>0</number>
+             </property>
+             <item>
+              <widget class="QCheckBox" name="checkBox">
+               <property name="font">
+                <font>
+                 <family>Microsoft YaHei UI</family>
+                 <pointsize>10</pointsize>
+                 <weight>3</weight>
+                 <italic>false</italic>
+                 <bold>false</bold>
+                </font>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">QCheckBox {
+	font: 25 10pt &quot;Microsoft YaHei UI&quot;;
+	padding: 1px;
+        }
+QCheckBox::indicator{
+	  width:14px;
+	  height:14px;
+      border: 2px solid gray;
+      border-radius: 5px;
+}
+QCheckBox::indicator:hover{
+       border-color:rgb(53, 134, 255);
+}
+QCheckBox::indicator:checked{
+	image: url(:/new/prefix1/icons/check.svg);
+    border-color: #3586FF;
+
+}</string>
+               </property>
+               <property name="text">
+                <string>还原默认</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <spacer name="verticalSpacer_3">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>20</width>
+              <height>40</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+         </layout>
+        </widget>
+        <widget class="QWidget" name="page_4">
+         <layout class="QVBoxLayout" name="verticalLayout_8">
+          <property name="spacing">
+           <number>0</number>
+          </property>
+          <property name="leftMargin">
+           <number>2</number>
+          </property>
+          <property name="topMargin">
+           <number>0</number>
+          </property>
+          <property name="rightMargin">
+           <number>0</number>
+          </property>
+          <property name="bottomMargin">
+           <number>0</number>
+          </property>
+          <item>
+           <widget class="QFrame" name="frame_30">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>167777</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true"/>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_7">
+             <property name="leftMargin">
+              <number>4</number>
+             </property>
+             <property name="topMargin">
+              <number>0</number>
+             </property>
+             <property name="rightMargin">
+              <number>0</number>
+             </property>
+             <property name="bottomMargin">
+              <number>0</number>
+             </property>
+             <item>
+              <widget class="QLabel" name="label_14">
+               <property name="minimumSize">
+                <size>
+                 <width>0</width>
+                 <height>30</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>16777215</width>
+                 <height>50</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <family>Microsoft YaHei UI</family>
+                 <pointsize>12</pointsize>
+                 <weight>50</weight>
+                 <italic>false</italic>
+                 <bold>false</bold>
+                </font>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">font: 12pt &quot;Microsoft YaHei UI&quot;;</string>
+               </property>
+               <property name="text">
+                <string>字幕</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QFrame" name="frame_31">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>50</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>1666</height>
+             </size>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_12">
+             <property name="spacing">
+              <number>10</number>
+             </property>
+             <property name="leftMargin">
+              <number>3</number>
+             </property>
+             <property name="topMargin">
+              <number>0</number>
+             </property>
+             <property name="rightMargin">
+              <number>0</number>
+             </property>
+             <property name="bottomMargin">
+              <number>0</number>
+             </property>
+             <item alignment="Qt::AlignVCenter">
+              <widget class="QComboBox" name="comboBox">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="minimumSize">
+                <size>
+                 <width>200</width>
+                 <height>30</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>16777215</width>
+                 <height>16777215</height>
+                </size>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">QComboBox {
+    border: 1px solid #b3b3b3;  /* 默认透明边框 */
+    background: transparent;        /* 背景透明 */
+    color: white;                   /* 字体白色 */
+    padding: 2px 15px 2px 5px;      /* 调整文本与箭头间距 */
+	font: 25 10pt &quot;Microsoft YaHei UI&quot;;
+}
+
+/* 鼠标悬停效果 */
+QComboBox:hover {
+    border: 1px solid #00b6ff;      /* 悬停时蓝色边框 */
+}
+
+/* 下拉框展开时的状态 */
+QComboBox:on { 
+    border: 1px solid #00b6ff;      /* 点击展开时蓝色边框 */
+}
+
+/* 下拉箭头样式 */
+QComboBox::drop-down {
+    subcontrol-origin: padding;
+    subcontrol-position: right;
+    width: 15px;
+    border-left: 1px solid transparent; /* 隐藏原分割线 */
+}
+
+QComboBox::down-arrow {
+    image: url(:/new/prefix1/icons/down.svg);  /* 自定义白色箭头图标 */
+    width: 10px;
+    height: 10px;
+}
+/* 下拉列表视图 */
+QComboBox QAbstractItemView {
+    border: 1px solid #00b6ff;      /* 下拉框边框颜色 */
+    background: rgba(0, 0, 0, 200); /* 半透明黑色背景 */
+    color: white;                   /* 选项文字白色 */
+    selection-background-color: #00b6ff; /* 选中项背景色 */
+    outline: 0px;                   /* 去除选中虚线框 */
+}
+
+/* 下拉项悬停效果 */
+QComboBox QAbstractItemView::item:hover {
+    background-color: rgba(0, 182, 255, 50); /* 半透明蓝色背景 */
+}</string>
+               </property>
+               <item>
+                <property name="text">
+                 <string>主字幕</string>
+                </property>
+               </item>
+              </widget>
+             </item>
+             <item>
+              <spacer name="horizontalSpacer_5">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <property name="sizeType">
+                <enum>QSizePolicy::Fixed</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>20</width>
+                 <height>20</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+             <item>
+              <widget class="QPushButton" name="pushButton">
+               <property name="minimumSize">
+                <size>
+                 <width>70</width>
+                 <height>40</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>40</width>
+                 <height>16777215</height>
+                </size>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">QPushButton {
+    /* 基础样式 */
+    background: qlineargradient(x1:0, y1:0, x2:0, y2:1,
+                              stop:0 #2d2d2d, stop:1 #404040);  /* 黑灰渐变背景 */
+    border: 2px solid #5a5a5a;              /* 深灰色边框 */
+    border-radius: 8px;                      /* 圆角半径 */
+    color: white;                            /* 白色字体 */
+                /* 字体设置 */
+	font: 25 10pt &quot;Microsoft YaHei UI&quot;;
+}
+ 
+/* 悬停效果 */
+QPushButton:hover {
+    background: qlineargradient(x1:0, y1:0, x2:0, y2:1,
+                              stop:0 #404040, stop:1 #4d4d4d);  /* 浅灰渐变 */
+    border-color: #707070;                   /* 浅灰边框 */
+}
+ 
+/* 按下效果 */
+QPushButton:pressed {
+    background: qlineargradient(x1:0, y1:0, x2:0, y2:1,
+                              stop:0 #212121, stop:1 #303030);  /* 深灰渐变 */
+    border-color: #3d3d3d;                   /* 暗灰色边框 */
+    padding-top: 3px;                        /* 模拟按压下沉效果 */
+    padding-left: 5px;
+}
+ 
+/* 禁用状态 */
+QPushButton:disabled {
+    background: #3a3a3a;                     /* 禁用背景色 */
+    color: #a0a0a0;                         /* 灰色字体 */
+    border-color: #4a4a4a;
+}</string>
+               </property>
+               <property name="text">
+                <string>载入</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <spacer name="horizontalSpacer_2">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>40</width>
+                 <height>20</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <spacer name="verticalSpacer_11">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+            <property name="sizeType">
+             <enum>QSizePolicy::Fixed</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>20</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item>
+           <widget class="QFrame" name="frame_32">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>25</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>166777</height>
+             </size>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_18">
+             <property name="leftMargin">
+              <number>3</number>
+             </property>
+             <property name="topMargin">
+              <number>6</number>
+             </property>
+             <property name="rightMargin">
+              <number>6</number>
+             </property>
+             <property name="bottomMargin">
+              <number>6</number>
+             </property>
+             <item>
+              <widget class="QLabel" name="label_15">
+               <property name="font">
+                <font>
+                 <family>Microsoft YaHei UI</family>
+                 <pointsize>12</pointsize>
+                 <weight>50</weight>
+                 <italic>false</italic>
+                 <bold>false</bold>
+                </font>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">font: 12pt &quot;Microsoft YaHei UI&quot;;</string>
+               </property>
+               <property name="text">
+                <string>同步</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QFrame" name="frame_33">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>50</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>16666</height>
+             </size>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_19">
+             <property name="spacing">
+              <number>10</number>
+             </property>
+             <property name="leftMargin">
+              <number>3</number>
+             </property>
+             <property name="topMargin">
+              <number>0</number>
+             </property>
+             <property name="rightMargin">
+              <number>0</number>
+             </property>
+             <property name="bottomMargin">
+              <number>0</number>
+             </property>
+             <item>
+              <widget class="QPushButton" name="pushButton_7">
+               <property name="minimumSize">
+                <size>
+                 <width>70</width>
+                 <height>40</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>40</width>
+                 <height>16777215</height>
+                </size>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">QPushButton {
+    /* 基础样式 */
+    background: qlineargradient(x1:0, y1:0, x2:0, y2:1,
+                              stop:0 #2d2d2d, stop:1 #404040);  /* 黑灰渐变背景 */
+    border: 2px solid #5a5a5a;              /* 深灰色边框 */
+    border-radius: 8px;                      /* 圆角半径 */
+    color: white;                            /* 白色字体 */
+                 /* 字体设置 */
+	font: 25 10pt &quot;Microsoft YaHei UI&quot;;
+}
+ 
+/* 悬停效果 */
+QPushButton:hover {
+    background: qlineargradient(x1:0, y1:0, x2:0, y2:1,
+                              stop:0 #404040, stop:1 #4d4d4d);  /* 浅灰渐变 */
+    border-color: #707070;                   /* 浅灰边框 */
+}
+ 
+/* 按下效果 */
+QPushButton:pressed {
+    background: qlineargradient(x1:0, y1:0, x2:0, y2:1,
+                              stop:0 #212121, stop:1 #303030);  /* 深灰渐变 */
+    border-color: #3d3d3d;                   /* 暗灰色边框 */
+    padding-top: 3px;                        /* 模拟按压下沉效果 */
+    padding-left: 5px;
+}
+ 
+/* 禁用状态 */
+QPushButton:disabled {
+    background: #3a3a3a;                     /* 禁用背景色 */
+    color: #a0a0a0;                         /* 灰色字体 */
+    border-color: #4a4a4a;
+}</string>
+               </property>
+               <property name="text">
+                <string>默认</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <spacer name="horizontalSpacer_7">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <property name="sizeType">
+                <enum>QSizePolicy::Fixed</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>20</width>
+                 <height>20</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+             <item>
+              <widget class="QSpinBox" name="spinBox">
+               <property name="minimumSize">
+                <size>
+                 <width>200</width>
+                 <height>30</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>200</width>
+                 <height>16777215</height>
+                </size>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">font: 25 10pt &quot;Microsoft YaHei UI&quot;;</string>
+               </property>
+               <property name="minimum">
+                <number>0</number>
+               </property>
+               <property name="maximum">
+                <number>100</number>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <spacer name="horizontalSpacer_3">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>40</width>
+                 <height>20</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <spacer name="verticalSpacer_5">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>20</width>
+              <height>40</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+         </layout>
+        </widget>
+        <widget class="QWidget" name="page_5">
+         <layout class="QVBoxLayout" name="verticalLayout_3">
+          <property name="spacing">
+           <number>0</number>
+          </property>
+          <property name="leftMargin">
+           <number>0</number>
+          </property>
+          <property name="topMargin">
+           <number>0</number>
+          </property>
+          <property name="rightMargin">
+           <number>0</number>
+          </property>
+          <property name="bottomMargin">
+           <number>0</number>
+          </property>
+          <item>
+           <widget class="QFrame" name="frame_4">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>1666666</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true"/>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_2">
+             <property name="leftMargin">
+              <number>6</number>
+             </property>
+             <property name="topMargin">
+              <number>0</number>
+             </property>
+             <property name="rightMargin">
+              <number>0</number>
+             </property>
+             <property name="bottomMargin">
+              <number>0</number>
+             </property>
+             <item>
+              <widget class="QLabel" name="label_16">
+               <property name="minimumSize">
+                <size>
+                 <width>0</width>
+                 <height>30</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>16777215</width>
+                 <height>50</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <family>Microsoft YaHei UI</family>
+                 <pointsize>12</pointsize>
+                 <weight>50</weight>
+                 <italic>false</italic>
+                 <bold>false</bold>
+                </font>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">font: 12pt &quot;Microsoft YaHei UI&quot;;</string>
+               </property>
+               <property name="text">
+                <string>位置</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QFrame" name="frame_6">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>70</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>16777215</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true"/>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QGridLayout" name="gridLayout_2">
+             <property name="topMargin">
+              <number>11</number>
+             </property>
+             <property name="rightMargin">
+              <number>0</number>
+             </property>
+             <property name="bottomMargin">
+              <number>0</number>
+             </property>
+             <property name="horizontalSpacing">
+              <number>0</number>
+             </property>
+             <property name="verticalSpacing">
+              <number>8</number>
+             </property>
+             <item row="1" column="0">
+              <widget class="QLabel" name="label_18">
+               <property name="minimumSize">
+                <size>
+                 <width>0</width>
+                 <height>25</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>16777215</width>
+                 <height>30</height>
+                </size>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">font: 25 10pt &quot;Microsoft YaHei UI&quot;;
+</string>
+               </property>
+               <property name="text">
+                <string>底部</string>
+               </property>
+              </widget>
+             </item>
+             <item row="1" column="1">
+              <widget class="QLabel" name="label_17">
+               <property name="layoutDirection">
+                <enum>Qt::LeftToRight</enum>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">font: 25 10pt &quot;Microsoft YaHei UI&quot;;
+</string>
+               </property>
+               <property name="text">
+                <string>顶部</string>
+               </property>
+               <property name="alignment">
+                <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="0" colspan="2">
+              <widget class="QSlider" name="horizontalSlider_4">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <spacer name="verticalSpacer_12">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+            <property name="sizeType">
+             <enum>QSizePolicy::Fixed</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>20</width>
+              <height>10</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item>
+           <widget class="QFrame" name="frame_7">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>16777215</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true"/>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_20">
+             <property name="topMargin">
+              <number>0</number>
+             </property>
+             <property name="rightMargin">
+              <number>0</number>
+             </property>
+             <property name="bottomMargin">
+              <number>0</number>
+             </property>
+             <item>
+              <widget class="QLabel" name="label_19">
+               <property name="font">
+                <font>
+                 <family>Microsoft YaHei UI</family>
+                 <pointsize>12</pointsize>
+                 <weight>50</weight>
+                 <italic>false</italic>
+                 <bold>false</bold>
+                </font>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">font: 12pt &quot;Microsoft YaHei UI&quot;;</string>
+               </property>
+               <property name="text">
+                <string>字体</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QFrame" name="frame_8">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>40</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>60</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true"/>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QGridLayout" name="gridLayout_3">
+             <property name="topMargin">
+              <number>6</number>
+             </property>
+             <property name="rightMargin">
+              <number>6</number>
+             </property>
+             <property name="bottomMargin">
+              <number>6</number>
+             </property>
+             <property name="horizontalSpacing">
+              <number>6</number>
+             </property>
+             <property name="verticalSpacing">
+              <number>4</number>
+             </property>
+             <item row="0" column="10">
+              <spacer name="horizontalSpacer_8">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <property name="sizeType">
+                <enum>QSizePolicy::Fixed</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>5</width>
+                 <height>20</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+             <item row="0" column="7">
+              <widget class="QPushButton" name="pushButton_14">
+               <property name="minimumSize">
+                <size>
+                 <width>35</width>
+                 <height>35</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>40</width>
+                 <height>16777215</height>
+                </size>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">QPushButton {
+    /* 基础样式 */
+    background: qlineargradient(x1:0, y1:0, x2:0, y2:1,
+                              stop:0 #2d2d2d, stop:1 #404040);  /* 黑灰渐变背景 */
+    border: 2px solid #5a5a5a;              /* 深灰色边框 */
+    border-radius: 8px;                      /* 圆角半径 */
+    color: white;                            /* 白色字体 */
+    font: bold 14px &quot;Segoe UI&quot;;             /* 字体设置 */
+}
+ 
+/* 悬停效果 */
+QPushButton:hover {
+    background: qlineargradient(x1:0, y1:0, x2:0, y2:1,
+                              stop:0 #404040, stop:1 #4d4d4d);  /* 浅灰渐变 */
+    border-color: #707070;                   /* 浅灰边框 */
+}
+ 
+/* 按下效果 */
+QPushButton:pressed {
+    background: qlineargradient(x1:0, y1:0, x2:0, y2:1,
+                              stop:0 #212121, stop:1 #303030);  /* 深灰渐变 */
+    border-color: #3d3d3d;                   /* 暗灰色边框 */
+    padding-top: 3px;                        /* 模拟按压下沉效果 */
+    padding-left: 5px;
+}
+ 
+/* 禁用状态 */
+QPushButton:disabled {
+    background: #3a3a3a;                     /* 禁用背景色 */
+    color: #a0a0a0;                         /* 灰色字体 */
+    border-color: #4a4a4a;
+}</string>
+               </property>
+               <property name="text">
+                <string/>
+               </property>
+               <property name="icon">
+                <iconset resource="../../icons.qrc">
+                 <normaloff>:/new/prefix1/icons/italic.svg</normaloff>:/new/prefix1/icons/italic.svg</iconset>
+               </property>
+               <property name="iconSize">
+                <size>
+                 <width>20</width>
+                 <height>20</height>
+                </size>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="2" colspan="2">
+              <widget class="QComboBox" name="comboBox_3">
+               <property name="minimumSize">
+                <size>
+                 <width>70</width>
+                 <height>30</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>70</width>
+                 <height>16777215</height>
+                </size>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">QComboBox {
+    border: 1px solid #b3b3b3;  /* 默认透明边框 */
+    background: transparent;        /* 背景透明 */
+    color: white;                   /* 字体白色 */
+    padding: 2px 15px 2px 5px;      /* 调整文本与箭头间距 */
+	
+	font: 25 10pt &quot;Microsoft YaHei UI&quot;;
+}
+
+/* 鼠标悬停效果 */
+QComboBox:hover {
+    border: 1px solid #00b6ff;      /* 悬停时蓝色边框 */
+}
+
+/* 下拉框展开时的状态 */
+QComboBox:on { 
+    border: 1px solid #00b6ff;      /* 点击展开时蓝色边框 */
+}
+
+/* 下拉箭头样式 */
+QComboBox::drop-down {
+    subcontrol-origin: padding;
+    subcontrol-position: right;
+    width: 15px;
+    border-left: 1px solid transparent; /* 隐藏原分割线 */
+}
+
+QComboBox::down-arrow {
+    image: url(:/new/prefix1/icons/down.svg);  /* 自定义白色箭头图标 */
+    width: 10px;
+    height: 10px;
+}
+/* 下拉列表视图 */
+QComboBox QAbstractItemView {
+    border: 1px solid #00b6ff;      /* 下拉框边框颜色 */
+    background: rgba(0, 0, 0, 200); /* 半透明黑色背景 */
+    color: white;                   /* 选项文字白色 */
+    selection-background-color: #00b6ff; /* 选中项背景色 */
+    outline: 0px;                   /* 去除选中虚线框 */
+}
+
+/* 下拉项悬停效果 */
+QComboBox QAbstractItemView::item:hover {
+    background-color: rgba(0, 182, 255, 50); /* 半透明蓝色背景 */
+}</string>
+               </property>
+               <item>
+                <property name="text">
+                 <string>1</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>2</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>3</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>4</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>5</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>6</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>7</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>8</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>9</string>
+                </property>
+               </item>
+              </widget>
+             </item>
+             <item row="0" column="0">
+              <widget class="QComboBox" name="comboBox_2">
+               <property name="minimumSize">
+                <size>
+                 <width>130</width>
+                 <height>30</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>130</width>
+                 <height>16777215</height>
+                </size>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">QComboBox {
+    border: 1px solid #b3b3b3;  /* 默认透明边框 */
+    background: transparent;        /* 背景透明 */
+    color: white;                   /* 字体白色 */
+    padding: 2px 15px 2px 5px;      /* 调整文本与箭头间距 */
+	
+	font: 25 10pt &quot;Microsoft YaHei UI&quot;;
+}
+
+/* 鼠标悬停效果 */
+QComboBox:hover {
+    border: 1px solid #00b6ff;      /* 悬停时蓝色边框 */
+}
+
+/* 下拉框展开时的状态 */
+QComboBox:on { 
+    border: 1px solid #00b6ff;      /* 点击展开时蓝色边框 */
+}
+
+/* 下拉箭头样式 */
+QComboBox::drop-down {
+    subcontrol-origin: padding;
+    subcontrol-position: right;
+    width: 15px;
+    border-left: 1px solid transparent; /* 隐藏原分割线 */
+}
+
+QComboBox::down-arrow {
+    image: url(:/new/prefix1/icons/down.svg);  /* 自定义白色箭头图标 */
+    width: 10px;
+    height: 10px;
+}
+/* 下拉列表视图 */
+QComboBox QAbstractItemView {
+    border: 1px solid #00b6ff;      /* 下拉框边框颜色 */
+    background: rgba(0, 0, 0, 200); /* 半透明黑色背景 */
+    color: white;                   /* 选项文字白色 */
+    selection-background-color: #00b6ff; /* 选中项背景色 */
+    outline: 0px;                   /* 去除选中虚线框 */
+}
+
+/* 下拉项悬停效果 */
+QComboBox QAbstractItemView::item:hover {
+    background-color: rgba(0, 182, 255, 50); /* 半透明蓝色背景 */
+}</string>
+               </property>
+               <item>
+                <property name="text">
+                 <string>微软雅黑</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>宋体</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>黑体</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>楷体</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>仿宋</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Arial </string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Times New Roman </string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Calibri </string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Consolas</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Verdana</string>
+                </property>
+               </item>
+              </widget>
+             </item>
+             <item row="0" column="8">
+              <spacer name="horizontalSpacer_4">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <property name="sizeType">
+                <enum>QSizePolicy::Fixed</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>8</width>
+                 <height>20</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+             <item row="0" column="6">
+              <spacer name="horizontalSpacer">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <property name="sizeType">
+                <enum>QSizePolicy::Fixed</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>8</width>
+                 <height>20</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+             <item row="0" column="4">
+              <spacer name="horizontalSpacer_6">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>40</width>
+                 <height>20</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+             <item row="0" column="5">
+              <widget class="QPushButton" name="pushButton_12">
+               <property name="minimumSize">
+                <size>
+                 <width>35</width>
+                 <height>35</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>40</width>
+                 <height>16777215</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <family>Segoe UI</family>
+                 <pointsize>-1</pointsize>
+                 <weight>75</weight>
+                 <italic>false</italic>
+                 <bold>true</bold>
+                </font>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">QPushButton {
+    /* 基础样式 */
+    background: qlineargradient(x1:0, y1:0, x2:0, y2:1,
+                              stop:0 #2d2d2d, stop:1 #404040);  /* 黑灰渐变背景 */
+    border: 2px solid #5a5a5a;              /* 深灰色边框 */
+    border-radius: 8px;                      /* 圆角半径 */
+    color: white;                            /* 白色字体 */
+    font: bold 14px &quot;Segoe UI&quot;;             /* 字体设置 */
+}
+ 
+/* 悬停效果 */
+QPushButton:hover {
+    background: qlineargradient(x1:0, y1:0, x2:0, y2:1,
+                              stop:0 #404040, stop:1 #4d4d4d);  /* 浅灰渐变 */
+    border-color: #707070;                   /* 浅灰边框 */
+}
+ 
+/* 按下效果 */
+QPushButton:pressed {
+    background: qlineargradient(x1:0, y1:0, x2:0, y2:1,
+                              stop:0 #212121, stop:1 #303030);  /* 深灰渐变 */
+    border-color: #3d3d3d;                   /* 暗灰色边框 */
+    padding-top: 3px;                        /* 模拟按压下沉效果 */
+    padding-left: 5px;
+}
+ 
+/* 禁用状态 */
+QPushButton:disabled {
+    background: #3a3a3a;                     /* 禁用背景色 */
+    color: #a0a0a0;                         /* 灰色字体 */
+    border-color: #4a4a4a;
+}</string>
+               </property>
+               <property name="text">
+                <string/>
+               </property>
+               <property name="icon">
+                <iconset resource="../../icons.qrc">
+                 <normaloff>:/new/prefix1/icons/bold.svg</normaloff>:/new/prefix1/icons/bold.svg</iconset>
+               </property>
+               <property name="iconSize">
+                <size>
+                 <width>20</width>
+                 <height>20</height>
+                </size>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="9">
+              <widget class="QPushButton" name="pushButton_15">
+               <property name="minimumSize">
+                <size>
+                 <width>35</width>
+                 <height>35</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>40</width>
+                 <height>16777215</height>
+                </size>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">QPushButton {
+    /* 基础样式 */
+    background: qlineargradient(x1:0, y1:0, x2:0, y2:1,
+                              stop:0 #2d2d2d, stop:1 #404040);  /* 黑灰渐变背景 */
+    border: 2px solid #5a5a5a;              /* 深灰色边框 */
+    border-radius: 8px;                      /* 圆角半径 */
+    color: white;                            /* 白色字体 */
+    font: bold 14px &quot;Segoe UI&quot;;             /* 字体设置 */
+}
+ 
+/* 悬停效果 */
+QPushButton:hover {
+    background: qlineargradient(x1:0, y1:0, x2:0, y2:1,
+                              stop:0 #404040, stop:1 #4d4d4d);  /* 浅灰渐变 */
+    border-color: #707070;                   /* 浅灰边框 */
+}
+ 
+/* 按下效果 */
+QPushButton:pressed {
+    background: qlineargradient(x1:0, y1:0, x2:0, y2:1,
+                              stop:0 #212121, stop:1 #303030);  /* 深灰渐变 */
+    border-color: #3d3d3d;                   /* 暗灰色边框 */
+    padding-top: 3px;                        /* 模拟按压下沉效果 */
+    padding-left: 5px;
+}
+ 
+/* 禁用状态 */
+QPushButton:disabled {
+    background: #3a3a3a;                     /* 禁用背景色 */
+    color: #a0a0a0;                         /* 灰色字体 */
+    border-color: #4a4a4a;
+}</string>
+               </property>
+               <property name="text">
+                <string/>
+               </property>
+               <property name="icon">
+                <iconset resource="../../icons.qrc">
+                 <normaloff>:/new/prefix1/icons/underline.svg</normaloff>:/new/prefix1/icons/underline.svg</iconset>
+               </property>
+               <property name="iconSize">
+                <size>
+                 <width>20</width>
+                 <height>20</height>
+                </size>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="1">
+              <spacer name="horizontalSpacer_9">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <property name="sizeType">
+                <enum>QSizePolicy::Fixed</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>10</width>
+                 <height>20</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QFrame" name="frame_42">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>50</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>6666</height>
+             </size>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QGridLayout" name="gridLayout_4">
+             <property name="leftMargin">
+              <number>10</number>
+             </property>
+             <property name="topMargin">
+              <number>6</number>
+             </property>
+             <property name="rightMargin">
+              <number>6</number>
+             </property>
+             <property name="bottomMargin">
+              <number>6</number>
+             </property>
+             <property name="horizontalSpacing">
+              <number>6</number>
+             </property>
+             <property name="verticalSpacing">
+              <number>4</number>
+             </property>
+             <item row="3" column="0">
+              <widget class="QLabel" name="label_20">
+               <property name="minimumSize">
+                <size>
+                 <width>40</width>
+                 <height>30</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>16777215</width>
+                 <height>32</height>
+                </size>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">font: 25 10pt &quot;Microsoft YaHei UI&quot;;
+</string>
+               </property>
+               <property name="text">
+                <string>透明度</string>
+               </property>
+              </widget>
+             </item>
+             <item row="1" column="0">
+              <widget class="QLabel" name="label_22">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">font: 25 10pt &quot;Microsoft YaHei UI&quot;;</string>
+               </property>
+               <property name="text">
+                <string>字体颜色</string>
+               </property>
+              </widget>
+             </item>
+             <item row="1" column="3">
+              <spacer name="horizontalSpacer_12">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>40</width>
+                 <height>20</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+             <item row="1" column="1">
+              <spacer name="horizontalSpacer_10">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <property name="sizeType">
+                <enum>QSizePolicy::Fixed</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>20</width>
+                 <height>20</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+             <item row="1" column="2">
+              <widget class="QComboBox" name="colorComboBox">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="minimumSize">
+                <size>
+                 <width>130</width>
+                 <height>30</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>130</width>
+                 <height>16777215</height>
+                </size>
+               </property>
+               <property name="focusPolicy">
+                <enum>Qt::WheelFocus</enum>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">QComboBox {
+    border: 1px solid #b3b3b3;  /* 默认透明边框 */
+    background: transparent;        /* 背景透明 */
+    color: white;                   /* 字体白色 */
+    padding: 2px 15px 2px 5px;      /* 调整文本与箭头间距 */
+	
+	font: 25 10pt &quot;Microsoft YaHei UI&quot;;
+}
+
+/* 鼠标悬停效果 */
+QComboBox:hover {
+    border: 1px solid #00b6ff;      /* 悬停时蓝色边框 */
+}
+
+/* 下拉框展开时的状态 */
+QComboBox:on { 
+    border: 1px solid #00b6ff;      /* 点击展开时蓝色边框 */
+}
+
+/* 下拉箭头样式 */
+QComboBox::drop-down {
+    subcontrol-origin: padding;
+    subcontrol-position: right;
+    width: 15px;
+    border-left: 1px solid transparent; /* 隐藏原分割线 */
+}
+
+QComboBox::down-arrow {
+    image: url(:/new/prefix1/icons/down.svg);  /* 自定义白色箭头图标 */
+    width: 10px;
+    height: 10px;
+}
+/* 下拉列表视图 */
+QComboBox QAbstractItemView {
+    border: 1px solid #00b6ff;      /* 下拉框边框颜色 */
+    background: rgba(0, 0, 0, 200); /* 半透明黑色背景 */
+    color: white;                   /* 选项文字白色 */
+    selection-background-color: #00b6ff; /* 选中项背景色 */
+    outline: 0px;                   /* 去除选中虚线框 */
+}
+
+/* 下拉项悬停效果 */
+QComboBox QAbstractItemView::item:hover {
+    background-color: rgba(0, 182, 255, 50); /* 半透明蓝色背景 */
+}</string>
+               </property>
+               <item>
+                <property name="text">
+                 <string>#000000</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>#000001</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>#000002</string>
+                </property>
+               </item>
+              </widget>
+             </item>
+             <item row="2" column="2">
+              <spacer name="verticalSpacer_6">
+               <property name="orientation">
+                <enum>Qt::Vertical</enum>
+               </property>
+               <property name="sizeType">
+                <enum>QSizePolicy::Fixed</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>20</width>
+                 <height>5</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+             <item row="3" column="1" colspan="3">
+              <widget class="QSlider" name="horizontalSlider_6">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QFrame" name="frame_35">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_22">
+             <property name="topMargin">
+              <number>0</number>
+             </property>
+             <property name="rightMargin">
+              <number>0</number>
+             </property>
+             <property name="bottomMargin">
+              <number>0</number>
+             </property>
+             <item>
+              <widget class="QCheckBox" name="checkBox_2">
+               <property name="minimumSize">
+                <size>
+                 <width>0</width>
+                 <height>25</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <family>Microsoft YaHei UI</family>
+                 <pointsize>10</pointsize>
+                 <weight>3</weight>
+                 <italic>false</italic>
+                 <bold>false</bold>
+                </font>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">QCheckBox {
+	font: 25 10pt &quot;Microsoft YaHei UI&quot;;
+	padding: 1px;
+        }
+QCheckBox::indicator{
+	  width:14px;
+	  height:14px;
+      border: 2px solid gray;
+      border-radius: 5px;
+}
+QCheckBox::indicator:hover{
+       border-color:rgb(53, 134, 255);
+}
+QCheckBox::indicator:checked{
+	image: url(:/new/prefix1/icons/check.svg);
+    border-color: #3586FF;
+
+}</string>
+               </property>
+               <property name="text">
+                <string>字体描边</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QFrame" name="frame_41">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>50</height>
+             </size>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <property name="lineWidth">
+             <number>0</number>
+            </property>
+            <layout class="QGridLayout" name="gridLayout_5">
+             <property name="leftMargin">
+              <number>10</number>
+             </property>
+             <property name="topMargin">
+              <number>6</number>
+             </property>
+             <property name="rightMargin">
+              <number>6</number>
+             </property>
+             <property name="bottomMargin">
+              <number>6</number>
+             </property>
+             <property name="horizontalSpacing">
+              <number>6</number>
+             </property>
+             <property name="verticalSpacing">
+              <number>4</number>
+             </property>
+             <item row="0" column="0">
+              <widget class="QLabel" name="label_23">
+               <property name="styleSheet">
+                <string notr="true">font: 25 10pt &quot;Microsoft YaHei UI&quot;;</string>
+               </property>
+               <property name="text">
+                <string>背景颜色</string>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="3">
+              <spacer name="horizontalSpacer_13">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>40</width>
+                 <height>20</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+             <item row="1" column="0">
+              <widget class="QLabel" name="label_21">
+               <property name="minimumSize">
+                <size>
+                 <width>40</width>
+                 <height>30</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>16777215</width>
+                 <height>32</height>
+                </size>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">font: 25 10pt &quot;Microsoft YaHei UI&quot;;</string>
+               </property>
+               <property name="text">
+                <string>透明度</string>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="2">
+              <widget class="QComboBox" name="comboBox_5">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="minimumSize">
+                <size>
+                 <width>130</width>
+                 <height>30</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>130</width>
+                 <height>16777215</height>
+                </size>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">QComboBox {
+    border: 1px solid #b3b3b3;  /* 默认透明边框 */
+    background: transparent;        /* 背景透明 */
+    color: white;                   /* 字体白色 */
+    padding: 2px 15px 2px 5px;      /* 调整文本与箭头间距 */
+	
+	font: 25 10pt &quot;Microsoft YaHei UI&quot;;
+}
+
+/* 鼠标悬停效果 */
+QComboBox:hover {
+    border: 1px solid #00b6ff;      /* 悬停时蓝色边框 */
+}
+
+/* 下拉框展开时的状态 */
+QComboBox:on { 
+    border: 1px solid #00b6ff;      /* 点击展开时蓝色边框 */
+}
+
+/* 下拉箭头样式 */
+QComboBox::drop-down {
+    subcontrol-origin: padding;
+    subcontrol-position: right;
+    width: 15px;
+    border-left: 1px solid transparent; /* 隐藏原分割线 */
+}
+
+QComboBox::down-arrow {
+    image: url(:/new/prefix1/icons/down.svg);  /* 自定义白色箭头图标 */
+    width: 10px;
+    height: 10px;
+}
+/* 下拉列表视图 */
+QComboBox QAbstractItemView {
+    border: 1px solid #00b6ff;      /* 下拉框边框颜色 */
+    background: rgba(0, 0, 0, 200); /* 半透明黑色背景 */
+    color: white;                   /* 选项文字白色 */
+    selection-background-color: #00b6ff; /* 选中项背景色 */
+    outline: 0px;                   /* 去除选中虚线框 */
+}
+
+/* 下拉项悬停效果 */
+QComboBox QAbstractItemView::item:hover {
+    background-color: rgba(0, 182, 255, 50); /* 半透明蓝色背景 */
+}</string>
+               </property>
+               <item>
+                <property name="text">
+                 <string>1233</string>
+                </property>
+               </item>
+              </widget>
+             </item>
+             <item row="0" column="1">
+              <spacer name="horizontalSpacer_14">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <property name="sizeType">
+                <enum>QSizePolicy::Fixed</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>20</width>
+                 <height>20</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+             <item row="1" column="1" colspan="3">
+              <widget class="QSlider" name="horizontalSlider_7">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </widget>
+      </item>
+      <item>
+       <spacer name="verticalSpacer_13">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>20</width>
+          <height>40</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="../../icons.qrc"/>
+ </resources>
+ <connections/>
+</ui>

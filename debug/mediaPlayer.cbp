@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="mediaPlayer"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\Qt5.14.2\;CMake Files\..\..\..\..\Qt5.14.2\5.14.2\;CMake Files\..\..\..\..\Qt5.14.2\5.14.2\mingw73_64\;CMake Files\..\..\..\..\Qt5.14.2\5.14.2\mingw73_64\lib\;CMake Files\..\..\..\..\Qt5.14.2\5.14.2\mingw73_64\lib\cmake\;CMake Files\..\..\..\..\Qt5.14.2\5.14.2\mingw73_64\lib\cmake\Qt5\;CMake Files\..\..\..\..\Qt5.14.2\5.14.2\mingw73_64\lib\cmake\Qt5Widgets\;CMake Files\..\..\..\..\Qt5.14.2\5.14.2\mingw73_64\lib\cmake\Qt5Gui\;CMake Files\..\..\..\..\Qt5.14.2\5.14.2\mingw73_64\lib\cmake\Qt5Core\;CMake Files\..\..\..\..\Qt5.14.2\5.14.2\mingw73_64\lib\cmake\Qt5Multimedia\;CMake Files\..\..\..\..\Qt5.14.2\5.14.2\mingw73_64\lib\cmake\Qt5Network\;CMake Files\..\..\..\..\Qt5.14.2\5.14.2\mingw73_64\lib\cmake\Qt5MultimediaWidgets\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="E:/XYG/test/mediaplayer-main/mediaplayer-main/debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/XYG/test/mediaplayer-main/mediaplayer-main/debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="E:/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/XYG/test/mediaplayer-main/mediaplayer-main/debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/XYG/test/mediaplayer-main/mediaplayer-main/debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/XYG/test/mediaplayer-main/mediaplayer-main/debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mediaPlayer">
+				<Option output="E:/XYG/test/mediaplayer-main/mediaplayer-main/debug/mediaPlayer.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/XYG/test/mediaplayer-main/mediaplayer-main/debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_MULTIMEDIA_LIB"/>
+					<Add option="-DQT_NETWORK_LIB"/>
+					<Add option="-DQT_MULTIMEDIAWIDGETS_LIB"/>
+					<Add directory="E:/XYG/test/mediaplayer-main/mediaplayer-main/debug/mediaPlayer_autogen/include"/>
+					<Add directory="E:/XYG/test/mediaplayer-main/mediaplayer-main/Python312/include"/>
+					<Add directory="E:/XYG/test/mediaplayer-main/mediaplayer-main/include"/>
+					<Add directory="E:/XYG/test/mediaplayer-main/mediaplayer-main/ffmpeg-7.1-full_build-shared/include"/>
+					<Add directory="E:/Qt5.14.2/5.14.2/mingw73_64/include"/>
+					<Add directory="E:/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets"/>
+					<Add directory="E:/Qt5.14.2/5.14.2/mingw73_64/include/QtGui"/>
+					<Add directory="E:/Qt5.14.2/5.14.2/mingw73_64/include/QtANGLE"/>
+					<Add directory="E:/Qt5.14.2/5.14.2/mingw73_64/include/QtCore"/>
+					<Add directory="E:/Qt5.14.2/5.14.2/mingw73_64/./mkspecs/win32-g++"/>
+					<Add directory="E:/Qt5.14.2/5.14.2/mingw73_64/include/QtMultimedia"/>
+					<Add directory="E:/Qt5.14.2/5.14.2/mingw73_64/include/QtNetwork"/>
+					<Add directory="E:/Qt5.14.2/5.14.2/mingw73_64/include/QtMultimediaWidgets"/>
+					<Add directory="E:/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="E:/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="E:/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="E:/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="E:/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="E:/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/XYG/test/mediaplayer-main/mediaplayer-main/debug/Makefile&quot;  VERBOSE=1 mediaPlayer"/>
+					<CompileFile command="E:/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/XYG/test/mediaplayer-main/mediaplayer-main/debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/XYG/test/mediaplayer-main/mediaplayer-main/debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/XYG/test/mediaplayer-main/mediaplayer-main/debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mediaPlayer/fast">
+				<Option output="E:/XYG/test/mediaplayer-main/mediaplayer-main/debug/mediaPlayer.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/XYG/test/mediaplayer-main/mediaplayer-main/debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_MULTIMEDIA_LIB"/>
+					<Add option="-DQT_NETWORK_LIB"/>
+					<Add option="-DQT_MULTIMEDIAWIDGETS_LIB"/>
+					<Add directory="E:/XYG/test/mediaplayer-main/mediaplayer-main/debug/mediaPlayer_autogen/include"/>
+					<Add directory="E:/XYG/test/mediaplayer-main/mediaplayer-main/Python312/include"/>
+					<Add directory="E:/XYG/test/mediaplayer-main/mediaplayer-main/include"/>
+					<Add directory="E:/XYG/test/mediaplayer-main/mediaplayer-main/ffmpeg-7.1-full_build-shared/include"/>
+					<Add directory="E:/Qt5.14.2/5.14.2/mingw73_64/include"/>
+					<Add directory="E:/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets"/>
+					<Add directory="E:/Qt5.14.2/5.14.2/mingw73_64/include/QtGui"/>
+					<Add directory="E:/Qt5.14.2/5.14.2/mingw73_64/include/QtANGLE"/>
+					<Add directory="E:/Qt5.14.2/5.14.2/mingw73_64/include/QtCore"/>
+					<Add directory="E:/Qt5.14.2/5.14.2/mingw73_64/./mkspecs/win32-g++"/>
+					<Add directory="E:/Qt5.14.2/5.14.2/mingw73_64/include/QtMultimedia"/>
+					<Add directory="E:/Qt5.14.2/5.14.2/mingw73_64/include/QtNetwork"/>
+					<Add directory="E:/Qt5.14.2/5.14.2/mingw73_64/include/QtMultimediaWidgets"/>
+					<Add directory="E:/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="E:/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="E:/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="E:/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="E:/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="E:/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/XYG/test/mediaplayer-main/mediaplayer-main/debug/Makefile&quot;  VERBOSE=1 mediaPlayer/fast"/>
+					<CompileFile command="E:/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/XYG/test/mediaplayer-main/mediaplayer-main/debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/XYG/test/mediaplayer-main/mediaplayer-main/debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/XYG/test/mediaplayer-main/mediaplayer-main/debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="E:/XYG/test/mediaplayer-main/mediaplayer-main/debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/XYG/test/mediaplayer-main/mediaplayer-main/debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="E:/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/XYG/test/mediaplayer-main/mediaplayer-main/debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/XYG/test/mediaplayer-main/mediaplayer-main/debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/XYG/test/mediaplayer-main/mediaplayer-main/debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="E:/XYG/test/mediaplayer-main/mediaplayer-main/debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/XYG/test/mediaplayer-main/mediaplayer-main/debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="E:/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/XYG/test/mediaplayer-main/mediaplayer-main/debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/XYG/test/mediaplayer-main/mediaplayer-main/debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/XYG/test/mediaplayer-main/mediaplayer-main/debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="E:/XYG/test/mediaplayer-main/mediaplayer-main/debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/XYG/test/mediaplayer-main/mediaplayer-main/debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="E:/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/XYG/test/mediaplayer-main/mediaplayer-main/debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/XYG/test/mediaplayer-main/mediaplayer-main/debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/XYG/test/mediaplayer-main/mediaplayer-main/debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="E:/XYG/test/mediaplayer-main/mediaplayer-main/debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/XYG/test/mediaplayer-main/mediaplayer-main/debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="E:/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/XYG/test/mediaplayer-main/mediaplayer-main/debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/XYG/test/mediaplayer-main/mediaplayer-main/debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/XYG/test/mediaplayer-main/mediaplayer-main/debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="E:/XYG/test/mediaplayer-main/mediaplayer-main/debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/XYG/test/mediaplayer-main/mediaplayer-main/debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="E:/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/XYG/test/mediaplayer-main/mediaplayer-main/debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/XYG/test/mediaplayer-main/mediaplayer-main/debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/XYG/test/mediaplayer-main/mediaplayer-main/debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="E:/XYG/test/mediaplayer-main/mediaplayer-main/debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/XYG/test/mediaplayer-main/mediaplayer-main/debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="E:/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/XYG/test/mediaplayer-main/mediaplayer-main/debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/XYG/test/mediaplayer-main/mediaplayer-main/debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/XYG/test/mediaplayer-main/mediaplayer-main/debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mediaPlayer_autogen">
+				<Option working_dir="E:/XYG/test/mediaplayer-main/mediaplayer-main/debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/XYG/test/mediaplayer-main/mediaplayer-main/debug/Makefile&quot;  VERBOSE=1 mediaPlayer_autogen"/>
+					<CompileFile command="E:/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/XYG/test/mediaplayer-main/mediaplayer-main/debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/XYG/test/mediaplayer-main/mediaplayer-main/debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/XYG/test/mediaplayer-main/mediaplayer-main/debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="E:/XYG/test/mediaplayer-main/mediaplayer-main/debug/mediaPlayer_autogen/include/src/ui/ui_aboutdialog.h">
+			<Option target="mediaPlayer"/>
+		</Unit>
+		<Unit filename="E:/XYG/test/mediaplayer-main/mediaplayer-main/debug/mediaPlayer_autogen/include/src/ui/ui_dialog.h">
+			<Option target="mediaPlayer"/>
+		</Unit>
+		<Unit filename="E:/XYG/test/mediaplayer-main/mediaplayer-main/debug/mediaPlayer_autogen/include/src/ui/ui_mainwindow.h">
+			<Option target="mediaPlayer"/>
+		</Unit>
+		<Unit filename="E:/XYG/test/mediaplayer-main/mediaplayer-main/debug/mediaPlayer_autogen/include/src/ui/ui_settingsdialog.h">
+			<Option target="mediaPlayer"/>
+		</Unit>
+		<Unit filename="E:/XYG/test/mediaplayer-main/mediaplayer-main/debug/mediaPlayer_autogen/include/src/ui/ui_summary.h">
+			<Option target="mediaPlayer"/>
+		</Unit>
+		<Unit filename="E:/XYG/test/mediaplayer-main/mediaplayer-main/debug/mediaPlayer_autogen/include/src/ui/ui_systemdialog.h">
+			<Option target="mediaPlayer"/>
+		</Unit>
+		<Unit filename="E:/XYG/test/mediaplayer-main/mediaplayer-main/debug/mediaPlayer_autogen/mocs_compilation.cpp">
+			<Option target="mediaPlayer"/>
+		</Unit>
+		<Unit filename="E:/XYG/test/mediaplayer-main/mediaplayer-main/debug/qrc_icons.cpp">
+			<Option target="mediaPlayer"/>
+		</Unit>
+		<Unit filename="E:/XYG/test/mediaplayer-main/mediaplayer-main/icons.qrc">
+			<Option target="mediaPlayer"/>
+		</Unit>
+		<Unit filename="E:/XYG/test/mediaplayer-main/mediaplayer-main/include/sonic.h">
+			<Option target="mediaPlayer"/>
+		</Unit>
+		<Unit filename="E:/XYG/test/mediaplayer-main/mediaplayer-main/include/tool.h">
+			<Option target="mediaPlayer"/>
+		</Unit>
+		<Unit filename="E:/XYG/test/mediaplayer-main/mediaplayer-main/src/ai/blank.cpp">
+			<Option target="mediaPlayer"/>
+		</Unit>
+		<Unit filename="E:/XYG/test/mediaplayer-main/mediaplayer-main/src/core/decode.cpp">
+			<Option target="mediaPlayer"/>
+		</Unit>
+		<Unit filename="E:/XYG/test/mediaplayer-main/mediaplayer-main/src/core/decode.h">
+			<Option target="mediaPlayer"/>
+		</Unit>
+		<Unit filename="E:/XYG/test/mediaplayer-main/mediaplayer-main/src/core/glwidget.cpp">
+			<Option target="mediaPlayer"/>
+		</Unit>
+		<Unit filename="E:/XYG/test/mediaplayer-main/mediaplayer-main/src/core/glwidget.h">
+			<Option target="mediaPlayer"/>
+		</Unit>
+		<Unit filename="E:/XYG/test/mediaplayer-main/mediaplayer-main/src/core/player.cpp">
+			<Option target="mediaPlayer"/>
+		</Unit>
+		<Unit filename="E:/XYG/test/mediaplayer-main/mediaplayer-main/src/core/player.h">
+			<Option target="mediaPlayer"/>
+		</Unit>
+		<Unit filename="E:/XYG/test/mediaplayer-main/mediaplayer-main/src/core/sumTester.h">
+			<Option target="mediaPlayer"/>
+		</Unit>
+		<Unit filename="E:/XYG/test/mediaplayer-main/mediaplayer-main/src/main.cpp">
+			<Option target="mediaPlayer"/>
+		</Unit>
+		<Unit filename="E:/XYG/test/mediaplayer-main/mediaplayer-main/src/sonic.c">
+			<Option target="mediaPlayer"/>
+		</Unit>
+		<Unit filename="E:/XYG/test/mediaplayer-main/mediaplayer-main/src/ui/aboutdialog.cpp">
+			<Option target="mediaPlayer"/>
+		</Unit>
+		<Unit filename="E:/XYG/test/mediaplayer-main/mediaplayer-main/src/ui/aboutdialog.h">
+			<Option target="mediaPlayer"/>
+		</Unit>
+		<Unit filename="E:/XYG/test/mediaplayer-main/mediaplayer-main/src/ui/aboutdialog.ui">
+			<Option target="mediaPlayer"/>
+		</Unit>
+		<Unit filename="E:/XYG/test/mediaplayer-main/mediaplayer-main/src/ui/dialog.cpp">
+			<Option target="mediaPlayer"/>
+		</Unit>
+		<Unit filename="E:/XYG/test/mediaplayer-main/mediaplayer-main/src/ui/dialog.h">
+			<Option target="mediaPlayer"/>
+		</Unit>
+		<Unit filename="E:/XYG/test/mediaplayer-main/mediaplayer-main/src/ui/dialog.ui">
+			<Option target="mediaPlayer"/>
+		</Unit>
+		<Unit filename="E:/XYG/test/mediaplayer-main/mediaplayer-main/src/ui/historyitem.cpp">
+			<Option target="mediaPlayer"/>
+		</Unit>
+		<Unit filename="E:/XYG/test/mediaplayer-main/mediaplayer-main/src/ui/historyitem.h">
+			<Option target="mediaPlayer"/>
+		</Unit>
+		<Unit filename="E:/XYG/test/mediaplayer-main/mediaplayer-main/src/ui/mainwindow.cpp">
+			<Option target="mediaPlayer"/>
+		</Unit>
+		<Unit filename="E:/XYG/test/mediaplayer-main/mediaplayer-main/src/ui/mainwindow.h">
+			<Option target="mediaPlayer"/>
+		</Unit>
+		<Unit filename="E:/XYG/test/mediaplayer-main/mediaplayer-main/src/ui/mainwindow.ui">
+			<Option target="mediaPlayer"/>
+		</Unit>
+		<Unit filename="E:/XYG/test/mediaplayer-main/mediaplayer-main/src/ui/mylabel.cpp">
+			<Option target="mediaPlayer"/>
+		</Unit>
+		<Unit filename="E:/XYG/test/mediaplayer-main/mediaplayer-main/src/ui/mylabel.h">
+			<Option target="mediaPlayer"/>
+		</Unit>
+		<Unit filename="E:/XYG/test/mediaplayer-main/mediaplayer-main/src/ui/pythonworker.cpp">
+			<Option target="mediaPlayer"/>
+		</Unit>
+		<Unit filename="E:/XYG/test/mediaplayer-main/mediaplayer-main/src/ui/pythonworker.h">
+			<Option target="mediaPlayer"/>
+		</Unit>
+		<Unit filename="E:/XYG/test/mediaplayer-main/mediaplayer-main/src/ui/recommend.cpp">
+			<Option target="mediaPlayer"/>
+		</Unit>
+		<Unit filename="E:/XYG/test/mediaplayer-main/mediaplayer-main/src/ui/recommend.h">
+			<Option target="mediaPlayer"/>
+		</Unit>
+		<Unit filename="E:/XYG/test/mediaplayer-main/mediaplayer-main/src/ui/settingsdialog.cpp">
+			<Option target="mediaPlayer"/>
+		</Unit>
+		<Unit filename="E:/XYG/test/mediaplayer-main/mediaplayer-main/src/ui/settingsdialog.h">
+			<Option target="mediaPlayer"/>
+		</Unit>
+		<Unit filename="E:/XYG/test/mediaplayer-main/mediaplayer-main/src/ui/settingsdialog.ui">
+			<Option target="mediaPlayer"/>
+		</Unit>
+		<Unit filename="E:/XYG/test/mediaplayer-main/mediaplayer-main/src/ui/summary.cpp">
+			<Option target="mediaPlayer"/>
+		</Unit>
+		<Unit filename="E:/XYG/test/mediaplayer-main/mediaplayer-main/src/ui/summary.h">
+			<Option target="mediaPlayer"/>
+		</Unit>
+		<Unit filename="E:/XYG/test/mediaplayer-main/mediaplayer-main/src/ui/summary.ui">
+			<Option target="mediaPlayer"/>
+		</Unit>
+		<Unit filename="E:/XYG/test/mediaplayer-main/mediaplayer-main/src/ui/systemdialog.cpp">
+			<Option target="mediaPlayer"/>
+		</Unit>
+		<Unit filename="E:/XYG/test/mediaplayer-main/mediaplayer-main/src/ui/systemdialog.h">
+			<Option target="mediaPlayer"/>
+		</Unit>
+		<Unit filename="E:/XYG/test/mediaplayer-main/mediaplayer-main/src/ui/systemdialog.ui">
+			<Option target="mediaPlayer"/>
+		</Unit>
+		<Unit filename="E:/XYG/test/mediaplayer-main/mediaplayer-main/web/py/QT_getBV.py">
+			<Option target="mediaPlayer"/>
+		</Unit>
+		<Unit filename="E:/XYG/test/mediaplayer-main/mediaplayer-main/web/py/example.py">
+			<Option target="mediaPlayer"/>
+		</Unit>
+		<Unit filename="E:/XYG/test/mediaplayer-main/mediaplayer-main/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="E:/XYG/test/mediaplayer-main/mediaplayer-main/icons.qrc">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="E:/XYG/test/mediaplayer-main/mediaplayer-main/../../../../Qt5.14.2/5.14.2/mingw73_64/lib/cmake/Qt5/Qt5Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt5.14.2\5.14.2\mingw73_64\lib\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="E:/XYG/test/mediaplayer-main/mediaplayer-main/../../../../Qt5.14.2/5.14.2/mingw73_64/lib/cmake/Qt5/Qt5ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt5.14.2\5.14.2\mingw73_64\lib\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="E:/XYG/test/mediaplayer-main/mediaplayer-main/../../../../Qt5.14.2/5.14.2/mingw73_64/lib/cmake/Qt5/Qt5ModuleLocation.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt5.14.2\5.14.2\mingw73_64\lib\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="E:/XYG/test/mediaplayer-main/mediaplayer-main/../../../../Qt5.14.2/5.14.2/mingw73_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt5.14.2\5.14.2\mingw73_64\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="E:/XYG/test/mediaplayer-main/mediaplayer-main/../../../../Qt5.14.2/5.14.2/mingw73_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt5.14.2\5.14.2\mingw73_64\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="E:/XYG/test/mediaplayer-main/mediaplayer-main/../../../../Qt5.14.2/5.14.2/mingw73_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt5.14.2\5.14.2\mingw73_64\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="E:/XYG/test/mediaplayer-main/mediaplayer-main/../../../../Qt5.14.2/5.14.2/mingw73_64/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt5.14.2\5.14.2\mingw73_64\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="E:/XYG/test/mediaplayer-main/mediaplayer-main/../../../../Qt5.14.2/5.14.2/mingw73_64/lib/cmake/Qt5Widgets/Qt5Widgets_QWindowsVistaStylePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt5.14.2\5.14.2\mingw73_64\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="E:/XYG/test/mediaplayer-main/mediaplayer-main/../../../../Qt5.14.2/5.14.2/mingw73_64/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt5.14.2\5.14.2\mingw73_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="E:/XYG/test/mediaplayer-main/mediaplayer-main/../../../../Qt5.14.2/5.14.2/mingw73_64/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt5.14.2\5.14.2\mingw73_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="E:/XYG/test/mediaplayer-main/mediaplayer-main/../../../../Qt5.14.2/5.14.2/mingw73_64/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt5.14.2\5.14.2\mingw73_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="E:/XYG/test/mediaplayer-main/mediaplayer-main/../../../../Qt5.14.2/5.14.2/mingw73_64/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt5.14.2\5.14.2\mingw73_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="E:/XYG/test/mediaplayer-main/mediaplayer-main/../../../../Qt5.14.2/5.14.2/mingw73_64/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt5.14.2\5.14.2\mingw73_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="E:/XYG/test/mediaplayer-main/mediaplayer-main/../../../../Qt5.14.2/5.14.2/mingw73_64/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt5.14.2\5.14.2\mingw73_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="E:/XYG/test/mediaplayer-main/mediaplayer-main/../../../../Qt5.14.2/5.14.2/mingw73_64/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt5.14.2\5.14.2\mingw73_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="E:/XYG/test/mediaplayer-main/mediaplayer-main/../../../../Qt5.14.2/5.14.2/mingw73_64/lib/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt5.14.2\5.14.2\mingw73_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="E:/XYG/test/mediaplayer-main/mediaplayer-main/../../../../Qt5.14.2/5.14.2/mingw73_64/lib/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt5.14.2\5.14.2\mingw73_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="E:/XYG/test/mediaplayer-main/mediaplayer-main/../../../../Qt5.14.2/5.14.2/mingw73_64/lib/cmake/Qt5Gui/Qt5Gui_QSvgIconPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt5.14.2\5.14.2\mingw73_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="E:/XYG/test/mediaplayer-main/mediaplayer-main/../../../../Qt5.14.2/5.14.2/mingw73_64/lib/cmake/Qt5Gui/Qt5Gui_QSvgPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt5.14.2\5.14.2\mingw73_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="E:/XYG/test/mediaplayer-main/mediaplayer-main/../../../../Qt5.14.2/5.14.2/mingw73_64/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt5.14.2\5.14.2\mingw73_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="E:/XYG/test/mediaplayer-main/mediaplayer-main/../../../../Qt5.14.2/5.14.2/mingw73_64/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt5.14.2\5.14.2\mingw73_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="E:/XYG/test/mediaplayer-main/mediaplayer-main/../../../../Qt5.14.2/5.14.2/mingw73_64/lib/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt5.14.2\5.14.2\mingw73_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="E:/XYG/test/mediaplayer-main/mediaplayer-main/../../../../Qt5.14.2/5.14.2/mingw73_64/lib/cmake/Qt5Gui/Qt5Gui_QVirtualKeyboardPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt5.14.2\5.14.2\mingw73_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="E:/XYG/test/mediaplayer-main/mediaplayer-main/../../../../Qt5.14.2/5.14.2/mingw73_64/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt5.14.2\5.14.2\mingw73_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="E:/XYG/test/mediaplayer-main/mediaplayer-main/../../../../Qt5.14.2/5.14.2/mingw73_64/lib/cmake/Qt5Gui/Qt5Gui_QWebGLIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt5.14.2\5.14.2\mingw73_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="E:/XYG/test/mediaplayer-main/mediaplayer-main/../../../../Qt5.14.2/5.14.2/mingw73_64/lib/cmake/Qt5Gui/Qt5Gui_QWebpPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt5.14.2\5.14.2\mingw73_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="E:/XYG/test/mediaplayer-main/mediaplayer-main/../../../../Qt5.14.2/5.14.2/mingw73_64/lib/cmake/Qt5Gui/Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt5.14.2\5.14.2\mingw73_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="E:/XYG/test/mediaplayer-main/mediaplayer-main/../../../../Qt5.14.2/5.14.2/mingw73_64/lib/cmake/Qt5Gui/Qt5Gui_QWindowsIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt5.14.2\5.14.2\mingw73_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="E:/XYG/test/mediaplayer-main/mediaplayer-main/../../../../Qt5.14.2/5.14.2/mingw73_64/lib/cmake/Qt5Gui/Qt5Gui_QXdgDesktopPortalThemePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt5.14.2\5.14.2\mingw73_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="E:/XYG/test/mediaplayer-main/mediaplayer-main/../../../../Qt5.14.2/5.14.2/mingw73_64/lib/cmake/Qt5Core/Qt5CoreConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt5.14.2\5.14.2\mingw73_64\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="E:/XYG/test/mediaplayer-main/mediaplayer-main/../../../../Qt5.14.2/5.14.2/mingw73_64/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt5.14.2\5.14.2\mingw73_64\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="E:/XYG/test/mediaplayer-main/mediaplayer-main/../../../../Qt5.14.2/5.14.2/mingw73_64/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt5.14.2\5.14.2\mingw73_64\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="E:/XYG/test/mediaplayer-main/mediaplayer-main/../../../../Qt5.14.2/5.14.2/mingw73_64/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt5.14.2\5.14.2\mingw73_64\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="E:/XYG/test/mediaplayer-main/mediaplayer-main/../../../../Qt5.14.2/5.14.2/mingw73_64/lib/cmake/Qt5Core/Qt5CoreMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt5.14.2\5.14.2\mingw73_64\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="E:/XYG/test/mediaplayer-main/mediaplayer-main/../../../../Qt5.14.2/5.14.2/mingw73_64/lib/cmake/Qt5Multimedia/Qt5MultimediaConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt5.14.2\5.14.2\mingw73_64\lib\cmake\Qt5Multimedia\"/>
+		</Unit>
+		<Unit filename="E:/XYG/test/mediaplayer-main/mediaplayer-main/../../../../Qt5.14.2/5.14.2/mingw73_64/lib/cmake/Qt5Multimedia/Qt5MultimediaConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt5.14.2\5.14.2\mingw73_64\lib\cmake\Qt5Multimedia\"/>
+		</Unit>
+		<Unit filename="E:/XYG/test/mediaplayer-main/mediaplayer-main/../../../../Qt5.14.2/5.14.2/mingw73_64/lib/cmake/Qt5Multimedia/Qt5Multimedia_AudioCaptureServicePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt5.14.2\5.14.2\mingw73_64\lib\cmake\Qt5Multimedia\"/>
+		</Unit>
+		<Unit filename="E:/XYG/test/mediaplayer-main/mediaplayer-main/../../../../Qt5.14.2/5.14.2/mingw73_64/lib/cmake/Qt5Multimedia/Qt5Multimedia_DSServicePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt5.14.2\5.14.2\mingw73_64\lib\cmake\Qt5Multimedia\"/>
+		</Unit>
+		<Unit filename="E:/XYG/test/mediaplayer-main/mediaplayer-main/../../../../Qt5.14.2/5.14.2/mingw73_64/lib/cmake/Qt5Multimedia/Qt5Multimedia_QM3uPlaylistPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt5.14.2\5.14.2\mingw73_64\lib\cmake\Qt5Multimedia\"/>
+		</Unit>
+		<Unit filename="E:/XYG/test/mediaplayer-main/mediaplayer-main/../../../../Qt5.14.2/5.14.2/mingw73_64/lib/cmake/Qt5Multimedia/Qt5Multimedia_QWindowsAudioPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt5.14.2\5.14.2\mingw73_64\lib\cmake\Qt5Multimedia\"/>
+		</Unit>
+		<Unit filename="E:/XYG/test/mediaplayer-main/mediaplayer-main/../../../../Qt5.14.2/5.14.2/mingw73_64/lib/cmake/Qt5Network/Qt5NetworkConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt5.14.2\5.14.2\mingw73_64\lib\cmake\Qt5Network\"/>
+		</Unit>
+		<Unit filename="E:/XYG/test/mediaplayer-main/mediaplayer-main/../../../../Qt5.14.2/5.14.2/mingw73_64/lib/cmake/Qt5Network/Qt5NetworkConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt5.14.2\5.14.2\mingw73_64\lib\cmake\Qt5Network\"/>
+		</Unit>
+		<Unit filename="E:/XYG/test/mediaplayer-main/mediaplayer-main/../../../../Qt5.14.2/5.14.2/mingw73_64/lib/cmake/Qt5Network/Qt5Network_QGenericEnginePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt5.14.2\5.14.2\mingw73_64\lib\cmake\Qt5Network\"/>
+		</Unit>
+		<Unit filename="E:/XYG/test/mediaplayer-main/mediaplayer-main/../../../../Qt5.14.2/5.14.2/mingw73_64/lib/cmake/Qt5MultimediaWidgets/Qt5MultimediaWidgetsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt5.14.2\5.14.2\mingw73_64\lib\cmake\Qt5MultimediaWidgets\"/>
+		</Unit>
+		<Unit filename="E:/XYG/test/mediaplayer-main/mediaplayer-main/../../../../Qt5.14.2/5.14.2/mingw73_64/lib/cmake/Qt5MultimediaWidgets/Qt5MultimediaWidgetsConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt5.14.2\5.14.2\mingw73_64\lib\cmake\Qt5MultimediaWidgets\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

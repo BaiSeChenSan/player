@@ -1,0 +1,64 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>icons/all.svg</file>
+        <file>icons/last.svg</file>
+        <file>icons/next.svg</file>
+        <file>icons/off.svg</file>
+        <file>icons/pause.svg</file>
+        <file>icons/play.svg</file>
+        <file>icons/stop.svg</file>
+        <file>icons/voice-off.svg</file>
+        <file>icons/voice-on.svg</file>
+        <file>icons/background.png</file>
+        <file>icons/close.svg</file>
+        <file>icons/logo.svg</file>
+        <file>icons/max.svg</file>
+        <file>icons/min.svg</file>
+        <file>icons/setting.svg</file>
+        <file>icons/nights.svg</file>
+        <file>icons/days.svg</file>
+        <file>icons/normal.svg</file>
+        <file>icons/bg.jpg</file>
+        <file>icons/bg3.jpg</file>
+        <file>icons/bg4.jpg</file>
+        <file>icons/open.svg</file>
+        <file>icons/file.svg</file>
+        <file>icons/setting2.svg</file>
+        <file>icons/help.svg</file>
+        <file>icons/exit.svg</file>
+        <file>icons/privicy.svg</file>
+        <file>icons/up.svg</file>
+        <file>icons/down.svg</file>
+        <file>icons/check.svg</file>
+        <file>icons/underline.svg</file>
+        <file>icons/italic.svg</file>
+        <file>icons/bold.svg</file>
+        <file>icons/ai.svg</file>
+        <file>icons/delete.svg</file>
+        <file>icons/list.png</file>
+        <file>icons/no1.ico</file>
+        <file>icons/list2.png</file>
+        <file>icons/list3.png</file>
+        <file>icons/historyRecord.svg</file>
+        <file>icons/recommend.svg</file>
+        <file>icons/aiIcon.svg</file>
+        <file>icons/ai.gif</file>
+        <file>icons/default.png</file>
+	<file>icons/like.svg</file>
+	<file>icons/unlike.svg</file>
+	<file>icons/initUnlike.svg</file>
+	<file>icons/initLike.svg</file>
+	<file>icons/finish.svg</file>
+	<file>icons/downLoad.svg</file>
+	<file>icons/filter.svg</file>
+	<file>icons/filter1.svg</file>
+	<file>icons/search.svg</file>
+  
+	<file>icons/playList.svg</file>
+	<file>icons/playScheme.svg</file>
+	<file>icons/refresh.svg</file>
+	<file>icons/initAdd.svg</file>
+	<file>icons/add.svg</file>
+
+    </qresource>
+</RCC>

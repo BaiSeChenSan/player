@@ -1,0 +1,831 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "mediaPlayer.exe"
+		},
+		{
+			"path" : "mediaPlayer.pdb"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"install",
+			"link_directories",
+			"target_link_libraries",
+			"set_property",
+			"_populate_Multimedia_target_properties",
+			"find_package",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt",
+			"E:/Qt5.14.2/5.14.2/mingw73_64/lib/cmake/Qt5Multimedia/Qt5MultimediaConfig.cmake",
+			"E:/Qt5.14.2/5.14.2/mingw73_64/lib/cmake/Qt5/Qt5Config.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 71,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 101,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 37,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 61,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 98,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 12,
+				"parent" : 0
+			},
+			{
+				"file" : 2,
+				"parent" : 6
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 28,
+				"parent" : 7
+			},
+			{
+				"file" : 1,
+				"parent" : 8
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 185,
+				"parent" : 9
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 45,
+				"parent" : 10
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 35,
+				"parent" : 0
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 67,
+				"parent" : 0
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 94,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -std=gnu++1z"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 5,
+					"define" : "QT_CORE_LIB"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "QT_GUI_LIB"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "QT_MULTIMEDIAWIDGETS_LIB"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "QT_MULTIMEDIA_LIB"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "QT_NETWORK_LIB"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "QT_WIDGETS_LIB"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 0,
+					"path" : "E:/XYG/test/mediaplayer-main/mediaplayer-main/debug/mediaPlayer_autogen/include"
+				},
+				{
+					"backtrace" : 12,
+					"path" : "E:/XYG/test/mediaplayer-main/mediaplayer-main/Python312/include"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "E:/XYG/test/mediaplayer-main/mediaplayer-main/include"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "E:/XYG/test/mediaplayer-main/mediaplayer-main/ffmpeg-7.1-full_build-shared/include"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "E:/Qt5.14.2/5.14.2/mingw73_64/include"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "E:/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "E:/Qt5.14.2/5.14.2/mingw73_64/include/QtGui"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "E:/Qt5.14.2/5.14.2/mingw73_64/include/QtANGLE"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "E:/Qt5.14.2/5.14.2/mingw73_64/include/QtCore"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "E:/Qt5.14.2/5.14.2/mingw73_64/./mkspecs/win32-g++"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "E:/Qt5.14.2/5.14.2/mingw73_64/include/QtMultimedia"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "E:/Qt5.14.2/5.14.2/mingw73_64/include/QtNetwork"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "E:/Qt5.14.2/5.14.2/mingw73_64/include/QtMultimediaWidgets"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					5
+				],
+				"standard" : "17"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				5,
+				8,
+				10,
+				13,
+				15,
+				17,
+				19,
+				22,
+				25,
+				28,
+				30,
+				32,
+				37,
+				41
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 5,
+					"define" : "QT_CORE_LIB"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "QT_GUI_LIB"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "QT_MULTIMEDIAWIDGETS_LIB"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "QT_MULTIMEDIA_LIB"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "QT_NETWORK_LIB"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "QT_WIDGETS_LIB"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 0,
+					"path" : "E:/XYG/test/mediaplayer-main/mediaplayer-main/debug/mediaPlayer_autogen/include"
+				},
+				{
+					"backtrace" : 12,
+					"path" : "E:/XYG/test/mediaplayer-main/mediaplayer-main/Python312/include"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "E:/XYG/test/mediaplayer-main/mediaplayer-main/include"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "E:/XYG/test/mediaplayer-main/mediaplayer-main/ffmpeg-7.1-full_build-shared/include"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "E:/Qt5.14.2/5.14.2/mingw73_64/include"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "E:/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "E:/Qt5.14.2/5.14.2/mingw73_64/include/QtGui"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "E:/Qt5.14.2/5.14.2/mingw73_64/include/QtANGLE"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "E:/Qt5.14.2/5.14.2/mingw73_64/include/QtCore"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "E:/Qt5.14.2/5.14.2/mingw73_64/./mkspecs/win32-g++"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "E:/Qt5.14.2/5.14.2/mingw73_64/include/QtMultimedia"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "E:/Qt5.14.2/5.14.2/mingw73_64/include/QtNetwork"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "E:/Qt5.14.2/5.14.2/mingw73_64/include/QtMultimediaWidgets"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				38
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 0,
+			"id" : "mediaPlayer_autogen::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "mediaPlayer::@6890427a1f51a3e7e1df",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 2,
+				"path" : "bin"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "C:/Program Files (x86)/mediaPlayer"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-LE:\\XYG\\test\\mediaplayer-main\\mediaplayer-main\\Python312\\libs\\python312.lib",
+				"role" : "libraryPath"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "-LE:\\XYG\\test\\mediaplayer-main\\mediaplayer-main\\Python312\\libs",
+				"role" : "libraryPath"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "E:\\Qt5.14.2\\5.14.2\\mingw73_64\\lib\\libQt5MultimediaWidgets.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "E:\\XYG\\test\\mediaplayer-main\\mediaplayer-main\\ffmpeg-7.1-full_build-shared\\lib\\libavcodec.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "E:\\XYG\\test\\mediaplayer-main\\mediaplayer-main\\ffmpeg-7.1-full_build-shared\\lib\\libavdevice.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "E:\\XYG\\test\\mediaplayer-main\\mediaplayer-main\\ffmpeg-7.1-full_build-shared\\lib\\libavfilter.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "E:\\XYG\\test\\mediaplayer-main\\mediaplayer-main\\ffmpeg-7.1-full_build-shared\\lib\\libavformat.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "E:\\XYG\\test\\mediaplayer-main\\mediaplayer-main\\ffmpeg-7.1-full_build-shared\\lib\\libavutil.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "E:\\XYG\\test\\mediaplayer-main\\mediaplayer-main\\ffmpeg-7.1-full_build-shared\\lib\\libpostproc.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "E:\\XYG\\test\\mediaplayer-main\\mediaplayer-main\\ffmpeg-7.1-full_build-shared\\lib\\libswresample.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "E:\\XYG\\test\\mediaplayer-main\\mediaplayer-main\\ffmpeg-7.1-full_build-shared\\lib\\libswscale.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "E:\\XYG\\test\\mediaplayer-main\\mediaplayer-main\\Python312\\libs\\python312.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "E:\\Qt5.14.2\\5.14.2\\mingw73_64\\lib\\libQt5Widgets.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "E:\\Qt5.14.2\\5.14.2\\mingw73_64\\lib\\libQt5Multimedia.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 11,
+				"fragment" : "E:\\Qt5.14.2\\5.14.2\\mingw73_64\\lib\\libQt5Network.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "E:\\Qt5.14.2\\5.14.2\\mingw73_64\\lib\\libQt5Gui.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "E:\\Qt5.14.2\\5.14.2\\mingw73_64\\lib\\libQt5Core.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "mediaPlayer",
+	"nameOnDisk" : "mediaPlayer.exe",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				5,
+				8,
+				10,
+				13,
+				15,
+				17,
+				19,
+				22,
+				25,
+				28,
+				30,
+				32,
+				37,
+				38,
+				41
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				3,
+				6,
+				9,
+				11,
+				14,
+				16,
+				18,
+				20,
+				23,
+				26,
+				29,
+				31,
+				33,
+				34,
+				39,
+				40,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				4,
+				7,
+				12,
+				21,
+				24,
+				27,
+				35,
+				36,
+				48
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "debug/mediaPlayer_autogen/mocs_compilation.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/ai/blank.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/ui/aboutdialog.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/ui/aboutdialog.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/ui/aboutdialog.ui",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/ui/dialog.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/ui/dialog.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/ui/dialog.ui",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/ui/historyitem.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/ui/historyitem.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/ui/mainwindow.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/ui/mainwindow.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/ui/mainwindow.ui",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/ui/mylabel.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/ui/mylabel.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/ui/pythonworker.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/ui/pythonworker.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/ui/recommend.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/ui/recommend.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/ui/settingsdialog.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/ui/settingsdialog.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/ui/settingsdialog.ui",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/ui/summary.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/ui/summary.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/ui/summary.ui",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/ui/systemdialog.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/ui/systemdialog.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/ui/systemdialog.ui",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/core/decode.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/core/decode.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/core/glwidget.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/core/glwidget.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/core/player.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/core/player.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/core/sumTester.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "web/py/QT_getBV.py",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "web/py/example.py",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/main.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/sonic.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "include/sonic.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "include/tool.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "debug/qrc_icons.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "debug/mediaPlayer_autogen/include/src/ui/ui_aboutdialog.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "debug/mediaPlayer_autogen/include/src/ui/ui_dialog.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "debug/mediaPlayer_autogen/include/src/ui/ui_mainwindow.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "debug/mediaPlayer_autogen/include/src/ui/ui_settingsdialog.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "debug/mediaPlayer_autogen/include/src/ui/ui_summary.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "debug/mediaPlayer_autogen/include/src/ui/ui_systemdialog.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"path" : "icons.qrc",
+			"sourceGroupIndex" : 2
+		}
+	],
+	"type" : "EXECUTABLE"
+}
